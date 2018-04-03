@@ -232,16 +232,16 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Nous avons pass\xE9 la fronti\xE8re depuis un moment d\xE9j\xE0.\r
-          En regardant par le fen\xEAtre, tout me parait si calme. Nous survolons
-          les quelques villages endormis. Le reste n'est que for\xEAts \xE9parses
-          et terres arides.\r\n\" T'es pr\xEAt? On y est bient\xF4t l'ami.\" (Vladimir)\r\nLize
-          lui jette un regard rapide. Ils semblent tous deux concentr\xE9s, le regard
-          lointain comme pour conserver leur d\xE9termination.\r\nNotre mission est
-          de rejoindre le contact que l'on nous a communiqu\xE9, \xE0 une vingtaine
-          de kilom\xE8tres d'ici. Celui-ci poss\xE8de des informations sur l'emplacement
-          de l'otage que nous devons exfiltrer de toute urgence. \n\"C'est bon, on
-          a tout\" (Lize)\nElle ouvre alors la lourde porte."
+        value: "\u201CNous avons pass\xE9 la fronti\xE8re depuis un moment d\xE9j\xE0.
+          T'es pr\xEAt ? On y est bient\xF4t je pense. (Vladimir)\r\n- Oui. Tout me
+          parait si calme dehors. Regarde ces quelques villages endormis, ces for\xEAts
+          et ces terres arides.  (Dave)\r\n(Vladimir)\r\n- Mouais. On fait le point
+          ? Lize a l\u2019air hyper concentr\xE9e. (Vladimir)\r\n- Lize ! Dernier
+          point sur la mission. Pour rappel, nous devons rejoindre le contact que
+          l'on nous a communiqu\xE9, \xE0 une vingtaine de kilom\xE8tres d'ici. Celui-ci
+          poss\xE8de des informations sur l'emplacement de l'otage que nous devons
+          exfiltrer de toute urgence. (Dave) \r\n- \xC7a marche. On approche du point
+          d'atterrissage. (Lize)\r\n- Exact. En position\u201D (Dave)\r\n"
         type: 0
         typeString: 
       - title: Parenthetical
@@ -387,7 +387,21 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: "\u201CTu y vas en premi\xE8re Lize, puis Vladimir. Je ferme la marche
+          (Dave)\r\n- OK.C\u2019est ici que la mission commence r\xE9ellement (Lize)\r\n-
+          Quand il faut y aller\u2026 On se retrouve en bas !\u201D (Vladimir)\r\n\r\nJe
+          me penche \xE0 mon tour, observant les deux silhouettes de mes camarades
+          s\u2019\xE9loigner rapidement. Les mains cramponn\xE9es \xE0 mes lani\xE8res
+          de parachute, je saute \xE0 mon tour, ballott\xE9 par les vents. C\u2019est
+          ici que la mission commence r\xE9ellement.\r\n\r\r\n\u201COuverture du parachute
+          (Lize)\r\n- Pareil, c\u2019est parti! (Vladimir)\r\n- J\u2019ouvre aussi\u201D
+          (Dave)\r\n\r\n\u201CVlad\u2019 ! Tu t\u2019approches trop du flanc de la
+          montagne ! (Dave)\r\n- Je \u2026.Trop de vent \u2026 Argh !\u201D (Vladimir)\r\n\r\n\u201CVladimir
+          ! Qu\u2019est-ce qui se passe ? (Lize)\r\n- Je \u2026 Je me suis pris une
+          branche morte dans la jambe. Mais je me suis remis sur la trajectoire l\xE0.
+          (Vladimir)\r\n- Merde. Attention \xE0 l'atterrissage du coup\u201D (Lize)\r\n\n\u201CLize
+          ! On dirait que Vladimir s\u2019est mal r\xE9ceptionn\xE9. Il s\u2019est
+          enroul\xE9 dans son parachute. Je vous rejoins !\u201D (Dave).\r\n"
         type: 0
         typeString: 
       - title: Parenthetical
@@ -533,12 +547,31 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "L'\xE9quipe descend \xE0 pieds le flan de la montagne. \r\nVladimir
-          \xE9voque sa culpabilit\xE9, tout en essayant de cacher sa douleur.\r\n\r\nIls
-          doivent rejoindre une base situ\xE9e \xE0 1 km au sud.\r\n\r\nVladmir \xE9voque
-          \ plus tard le fait qu'il ne fera que ralentir l'\xE9quipe, et ne pense
-          pas pouvoir mener \xE0 bien la mission. Il demande alors \xE0 \xEAtre laiss\xE9
-          seul avec une radio."
+        value: "Lorsque je pose le pied \xE0 terre, Lize est d\xE9j\xE0 plong\xE9e
+          dans le drap\xE9 du parachute, cherchant \xE0 d\xE9gager Vladimir. (Dave)\r\n\r\n\u201CDave
+          ! Il s\u2019est bless\xE9, viens !\r\nIl commence \xE0 saigner.\u201D (Lize)\r\n\r\n\u201C\xC7a
+          va, \xE7a va, c\u2019est juste ma r\xE9ception que j\u2019ai mal g\xE9r\xE9e.
+          (Vladimir)\r\n- Aide-moi Lize, on va te relever et d\xE9tacher ton parachute.\u201D
+          (Dave)\r\n\r\n\u201CTu penses pouvoir marcher ? (Lize)\r\n- Oui, ne t\u2019inqui\xE8te
+          pas. Il faut qu\u2019on avance (Vladimir)\r\n- Ok, descendons la montagne
+          pour commencer.\u201D (Dave)\r\n\r\n\u201CLaisse-moi t\u2019aider l\xE0,
+          c\u2019est raide (Dave)\r\n- Non, \xE7a ira\u201D (Vladimir)\r\n\r\n\u201C\xC7a
+          va, je peux le faire, ne vous occupez pas de moi. Je me suis quand m\xEAme
+          bien rat\xE9 sur ce coup-l\xE0. \u2019Tain !!! (Vladimir)\r\n- Qu\u2019est-ce
+          qui s\u2019est pass\xE9 ? (Lize)\r\n- Je me suis fait surprendre par un
+          courant de vent, il m\u2019a envoy\xE9 droit dans les branches d\u2019un
+          arbre. Heureusement que j\u2019ai pu redresser pour que mon parachute ne
+          se prenne pas dedans.\u201D (Vladimir)\r\n\r\nNous continuons jusqu\u2019\xE0
+          atteindre le pied de la montagne. Le sol plat devrait moins faire souffrir
+          Vladimir, qui semble essayer de cacher sa douleur. (Dave)\r\n\r\nNotre premier
+          objectif est de rejoindre une base des forces alli\xE9es \xE9tablie \xE0
+          2km au Sud environ. Ceux-ci devrait pouvoir nous octroyer un v\xE9hicule
+          afin de rejoindre notre contact. (Dave)\r\n\r\n\u201C Tu fais quoi ? T\u2019as
+          besoin qu\u2019on fasse une pause ? (Lize)\r\n- Lize, Dave, je ne vais faire
+          que vous ralentir. Je ne pense m\xEAme pas pouvoir courir. Mais il faut
+          absolument que la mission r\xE9ussisse, on a la vie d\u2019un otage sur
+          les \xE9paules. Il faut que vous me laissiez pour aller plus vite. Je vais
+          me d\xE9brouiller, si vous me passez une des 2 radios.\u201D (Vladimir)\r"
         type: 0
         typeString: 
       - title: Parenthetical
@@ -763,12 +796,34 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Le commando arrive au campement des forces alli\xE9es, mais constate
-          qu\u2019il y a une forte activit\xE9.\r\nUn des soldat les pr\xE9vient qu\u2019ils
-          doivent lever le camp urgemment afin d\u2019intervenir rapidement dans une
-          ville ayant subi une attaque majeure. \r\nUn commandant les rep\xE8re, et
-          leur propose de les d\xE9poser pr\xE8s de la ville dans laquelle le rendez-vous
-          avec le contact a \xE9t\xE9 \xE9tabli."
+        value: "\u201CD'accord.\u201D (Dave)\r\n- Mais \u2026 Bon, vous avez raison,
+          la mission avant tout.\u201D (Lize)\r\n\r\n\u201CTient. Prend une partie
+          de la trousse de soin qu\u2019on a aussi. \xC7a pourra s\xFBrement te servir.
+          (Dave)\r\n- Bon courage\u201D (Lize)\r\n\r\n\u201CIl ne faut pas se retourner\u201D
+          (Dave)\r\n\r\nLize et moi marchons, sans oser parler. J\u2019essaye de rester
+          concentr\xE9 sur notre mission, et elle doit s\xFBrement s\u2019emp\xEAcher
+          aussi de cogiter. (Dave)\r\n\r\n\u201CL\xE0-bas \xE0 l\u2019horizon, la
+          base des forces alli\xE9es. (Lize)\r\n- Elle a l\u2019air bien anim\xE9
+          pour une heure si tardive. Des soldats d\xE9placent des caisses et du mat\xE9riel.\u201D
+          (Dave)\r\n\r\n\u201CAh, il y en a un qui nous a remarqu\xE9 ! (Dave)\r\n-
+          Commando Azure, r\xE9giment 112 des forces de la coalition. (Lize)\r\n-
+          Ah C\u2019est vous ! D\xE9sol\xE9, on ne peut pas vraiment vous accueillir
+          l\xE0 \u2026 (Soldat)\r\n- Qu\u2019est-ce qui se passe ? (Dave)\r\n- On
+          doit lever le camp, il y a eu une attaque de civils vers 21h dans le centre
+          d\u2019une ville \xE0 une vingtaine de kilom\xE8tre d\u2019ici. Il faut
+          intervenir rapidement. Allez parler au g\xE9n\xE9ral Allan, il devrait \xEAtre
+          l\xE0-bas, derri\xE8re les tentes d\u2019infirmerie. (Soldat)\r\n- OK, merci
+          pour les infos\u201D (Lize)\r\n\r\n\u201CG\xE9n\xE9ral Allan ? (Dave)\r\n-
+          Oui ? Vous \xEAtes ? (G\xE9n\xE9ral)\r\n- Commando Azure, vous avez d\xFB
+          \xEAtre avertis de notre arriv\xE9e (Dave)\r\n- Ah oui, en effet. Vous \xEAtes
+          charg\xE9 de r\xE9cup\xE9rer l\u2019otage de la zone Ouest, c\u2019est \xE7a
+          ? (G\xE9n\xE9ral)\r\n- Exact. Mais nous devons d\u2019abord rejoindre la
+          ville \xE0 la fronti\xE8re de la zone alli\xE9e. Un de vos soldats vient
+          de nous expliquer la situation (Dave)\r\n- Bien. Effectivement, on ne peut
+          pas vous accueillir pour cette nuit. En revanche, vous pouvez embarquer
+          avec nous, et nous vous d\xE9poserons pr\xE8s de votre objectif. (G\xE9n\xE9ral)\r\n-
+          Ce serait parfait. Nous vous remercions g\xE9n\xE9ral\u201D (Dave)\r\n\r\n\u201CLes
+          gars, venez, on doit partir ! (soldat)\r\n- On arrive !\u201D (Dave)\r"
         type: 0
         typeString: 
       - title: Parenthetical
@@ -795,12 +850,6 @@ MonoBehaviour:
       falseConditionAction: Block
       conditionPriority: 2
       outgoingLinks:
-      - originConversationID: 1
-        originDialogueID: 8
-        destinationConversationID: 1
-        destinationDialogueID: 9
-        isConnector: 0
-        priority: 2
       - originConversationID: 1
         originDialogueID: 8
         destinationConversationID: 1
@@ -820,83 +869,10 @@ MonoBehaviour:
         y: 149.96971
         width: 160
         height: 30
-    - id: 9
-      fields:
-      - title: Title
-        value: Choix 2
-        type: 0
-        typeString: 
-      - title: Pictures
-        value: '[]'
-        type: 3
-        typeString: 
-      - title: Description
-        value: 
-        type: 0
-        typeString: 
-      - title: Actor
-        value: 1
-        type: 5
-        typeString: 
-      - title: Conversant
-        value: 2
-        type: 5
-        typeString: 
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Dialogue Text
-        value: Avertir Vladimir
-        type: 0
-        typeString: 
-      - title: Parenthetical
-        value: 
-        type: 0
-        typeString: 
-      - title: Audio Files
-        value: '[]'
-        type: 3
-        typeString: 
-      - title: Video File
-        value: 
-        type: 0
-        typeString: 
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: 
-      conversationID: 1
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 1
-        originDialogueID: 9
-        destinationConversationID: 1
-        destinationDialogueID: 11
-        isConnector: 0
-        priority: 2
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-      canvasRect:
-        serializedVersion: 2
-        x: 376.88745
-        y: 97.07849
-        width: 160
-        height: 30
     - id: 10
       fields:
       - title: Title
-        value: Choix 2
+        value: Continuer
         type: 0
         typeString: 
       - title: Pictures
@@ -962,14 +938,14 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 280.0377
-        y: 33.269516
+        x: 276.759
+        y: 79.17116
         width: 160
         height: 30
     - id: 11
       fields:
       - title: Title
-        value: "Le d\xE9part"
+        value: "Trajet avec les forces alli\xE9es 1"
         type: 0
         typeString: 
       - title: Pictures
@@ -993,7 +969,23 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Le commandant presse Dave.
+        value: "\u201CAu fait, je ne me suis m\xEAme pas pr\xE9sent\xE9 : Sam, combattant
+          d\u2019infanterie. (Sam)\r\n- C\u2019est vrai. Voici Lize et moi c\u2019est
+          Dave. Nous avons atterri par parachute dans la soir\xE9e. (Sam)\r\n- On
+          avait \xE9t\xE9 inform\xE9 de votre venue. Vous auriez pu vous reposer pour
+          la nuit au moins, si on ne nous avait pas appel\xE9. Il y a eu un attentat
+          des forces rebelles, en plein centre-ville. Il parait qu\u2019un nombre
+          assez important de civils a \xE9t\xE9 touch\xE9. La ville \xE9tait s\xFBre
+          normalement, \xE9tant en zone alli\xE9e, mais il faut croire qu\u2019elle
+          \xE9tait trop proche de la fronti\xE8re\u2026\r\nEn plus, elle avait \xE9t\xE9
+          lib\xE9r\xE9e depuis 6-7 mois, donc les habitait commen\xE7aient \xE0 retrouver
+          une vie normale, enfin \xE0 sortir un peu plus de chez eux, m\xEAme le soir
+          je veux dire \u2026 (Sam)\r\n- C\u2019est dur, en effet \u2026 J\u2019esp\xE8re
+          que vous pourrez intervenir rapidement (Lize)\r\n- On a mis 30-40 minutes
+          \xE0 lever le camp, enfin \xE0 partir du moment o\xF9 l\u2019on nous a appel\xE9
+          \u2026 (Sam)\r\n- Au fait, vous n\u2019\xE9tiez que 2 ? Je pensais que les
+          commandos d\u2019intervention se composait tout le temps de plus de 2 personnes.
+          (Sam)\r\n"
         type: 0
         typeString: 
       - title: Parenthetical
@@ -1026,6 +1018,12 @@ MonoBehaviour:
         destinationDialogueID: 12
         isConnector: 0
         priority: 2
+      - originConversationID: 1
+        originDialogueID: 11
+        destinationConversationID: 1
+        destinationDialogueID: 43
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -1035,14 +1033,14 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 490.5957
-        y: 35.1772
+        x: 280.36816
+        y: 27.127289
         width: 160
         height: 30
     - id: 12
       fields:
       - title: Title
-        value: Continuer
+        value: Choix 8
         type: 0
         typeString: 
       - title: Pictures
@@ -1066,7 +1064,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Partir avec les forces alli\xE9es"
+        value: Lui parler de Vladimir
         type: 0
         typeString: 
       - title: Parenthetical
@@ -1108,14 +1106,14 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 680.46924
-        y: 37.708893
+        x: 499.77435
+        y: 20.410141
         width: 160
         height: 30
     - id: 13
       fields:
       - title: Title
-        value: "Trajet avec les forces alli\xE9es"
+        value: "Trajet avec les forces alli\xE9es 2 (\xE0 propos de Vladimir)"
         type: 0
         typeString: 
       - title: Pictures
@@ -1139,7 +1137,13 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: "\u201COn est arriv\xE9s \xE0 3, mais notre partenaire \u2026 Vladimir,
+          s\u2019est bless\xE9 \xE0 l'atterrissage. Pour le bien de la mission, on
+          a d\xFB le laisser seul pour contacter les forces alli\xE9es. Ses blessures
+          le ralentissent trop... (Dave)\r\n- Oui, on doit intervenir rapidement,
+          par rapport \xE0 la vie de l\u2019otage. (Lize)\r\n- Ok, je vois. \xC7a
+          n\u2019a pas d\xFB \xEAtre facile de le laisser. (Sam)\r\n- Mmm \u2026\u201D
+          (Dave)\r"
         type: 0
         typeString: 
       - title: Parenthetical
@@ -1169,7 +1173,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 13
         destinationConversationID: 1
-        destinationDialogueID: 14
+        destinationDialogueID: 45
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -1181,8 +1185,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 881.73505
-        y: 38.34178
+        x: 699.1072
+        y: 18.204758
         width: 160
         height: 30
     - id: 14
@@ -1254,14 +1258,14 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 874.1402
-        y: 99.73416
+        x: 889.1356
+        y: 82.686584
         width: 160
         height: 30
     - id: 15
       fields:
       - title: Title
-        value: "Arriv\xE9e dans la ville du contact"
+        value: "Vers la ville du contact (\xE0 pieds)"
         type: 0
         typeString: 
       - title: Pictures
@@ -1285,8 +1289,17 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Le commando arrive enfin dans la ville d'objectif. Ils arrivent [\xE0
-          pieds | en voiture], et sont d\xE9sormais [2|3].\r\nLa mission peut continuer."
+        value: "\u201CJe n\u2019arrive pas \xE0 ne pas me sentir coupable \u2026 par
+          rapport \xE0 Vladimir, je veux dire. (Lize)\r\n- J\u2019y pense encore moi
+          aussi. M\xEAme si le choix \xE9tait difficile, il faut que l\u2019on reste
+          concentr\xE9 sur la mission. (Dave)\r\n- C\u2019est vrai, les derni\xE8res
+          nouvelles de l\u2019otage remontent \xE0 plus de 5 jours \u2026 (Lize)\r\n-
+          J\u2019esp\xE8re surtout que notre contact sera fiable d\xE9j\xE0. On n\u2019a
+          que tr\xE8s peu d\u2019infos sur lui, juste sa description visuelle et son
+          pr\xE9nom.\u201D (Dave)\r\n\r\n\u201CVille en vue ! (Dave)\r\n- On va enfin
+          pouvoir se rapprocher de notre objectif.\u201D (Lize)\r\n\r\nNous devons
+          trouver cet homme nomm\xE9 \u201CAbir\u201D. Il sait o\xF9 se trouve l\u2019otage
+          que nous devons lib\xE9rer. (Dave)\r\n"
         type: 0
         typeString: 
       - title: Parenthetical
@@ -1328,8 +1341,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 877.9376
-        y: 175.05063
+        x: 885.7501
+        y: 132.86314
         width: 160
         height: 30
     - id: 16
@@ -1395,8 +1408,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 877.9376
-        y: 225.05063
+        x: 885.7501
+        y: 203.17563
         width: 160
         height: 30
     - id: 17
@@ -1426,9 +1439,26 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Le commando arrive au campement des forces alli\xE9es. Toutefois,
-          celui-ci est d\xE9sert et ne comporte presque plus de mat\xE9riel.\r\nLe
-          commando d\xE9cide d\u2019\xE9tablir le camp pour la nuit."
+        value: "\u201CHors de question qu\u2019on t\u2019abandonne ici, Vlad\u2019.
+          On ne sait pas ce qu\u2019il peut se passer et dans ton \xE9tat, il est
+          trop dangereux de te laisser seul. On t\u2019emm\xE8nera jusqu\u2019\xE0
+          l'h\xF4pital et on avisera l\xE0-bas. (Dave).\r\n- Je suis d\u2019accord
+          avec Dave. Arriver un peu plus tard au campement n\u2019est pas un probl\xE8me,
+          en tout cas pas aussi grave que de te perdre. (Lize)\r\n- Vous \xEAtes vraiment
+          deux born\xE9s, ce n\u2019est pas possible\u2026  Puisque je ne peux pas
+          vous faire changer d\u2019avis, d\xE9p\xEAchons nous. On va d\xE9j\xE0 prendre
+          assez de retard comme \xE7a!  Dave, tu peux m\u2019aider \xE0 me relever
+          s\u2019il-te-plait. (Vladimir)\r\n- Ok c\u2019est re-parti. Courage mon
+          vieux. On va t\u2019\xE9pauler, ne t\u2019inqui\xE8te pas.\u201D (Dave)\r\n\r\n\u201C\xC7a
+          va aller, Vladimir ? (Dave)\r\n- Ouais ne t\u2019en fais pas, il faut qu\u2019on
+          continue. (Vladimir)\r\n- Regardez, c\u2019est la base alli\xE9e ! (Lize)\r\n-
+          Parfait, on va pouvoir trouver un peu d\u2019aide\u201D (Dave)\r\n\r\n\u201C\xC7a
+          me semble \xE9trangement calme par l\xE0-bas\u2026 (Vladimir)\r\n- Qu\u2019est-ce
+          qui s\u2019est pass\xE9, pourquoi ce campement est d\xE9sert ?! (Lize)\r\n-
+          Malheureusement on ne peut pas le savoir. Profitons de ce qu\u2019il y a
+          pour aider Vladimir.  C\u2019est plus prudent de passer la nuit ici d\u2019ailleurs.
+          Nous rejoindrons le contact demain. (Dave)\r\n- Tr\xE8s bien, effectivement
+          c\u2019est plus prudent.\u201D (Lize)\r\n"
         type: 0
         typeString: 
       - title: Parenthetical
@@ -1501,7 +1531,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Partir vers le village le plus proche
+        value: Continuer
         type: 0
         typeString: 
       - title: Parenthetical
@@ -1543,8 +1573,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 449.32712
-        y: 408.15442
+        x: 262.29507
+        y: 466.06985
         width: 160
         height: 30
     - id: 19
@@ -1574,10 +1604,27 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Le commando part le lendemain matin, et marche jusqu'au au village
-          civil le plus proche afin de trouver un m\xE9decin pouvant prodiguer des
-          soins \xE0 Vladimir. \r\nIl n'y a qu'un m\xE9decin local, parlant l'anglais.\r\nCelui-ci
-          refuse de soigner un soldat, quel que soit son camp"
+        value: "\u201CBon vous \xEAtes pr\xEAt ? Nous allons nous diriger vers le
+          village le plus proche. On essaiera de trouver de quoi aider Vladimir. (Dave)\r\n-
+          Regardez la carte, si je ne dis pas de b\xEAtises, le village le plus proche
+          est \xE0 une heure de marche. (Lize)\r\n- Plut\xF4t deux heures avec moi\u2026
+          (Vladimir)\r\n- Une heure, deux heures, ce n\u2019est pas grave, on y va
+          ! \u201C (Dave)\r\n\r\n\u201CVous auriez vraiment d\xFB me laisser derri\xE8re,
+          je ne comprends pas pourquoi vous vous obstinez \xE0 me trimballer avec
+          vous ! (Vladimir)\r\n- On ne va pas revenir sur notre d\xE9cision Vlad\u2019.
+          Alors arr\xEAte de te morfondre et garde ton \xE9nergie pour avancer le
+          plus vite possible ! (Dave)\r\n- Vous pensez qu\u2019on va s\u2019en sortir
+          indemne de ce conflit? D\u2019accord, nous ne sommes pas dans la zone la
+          plus affect\xE9e, mais on ne sait jamais\u2026 (Lize)\r\n- Evidemment qu\u2019on
+          va s\u2019en sortir, on a \xE9t\xE9 form\xE9s et disciplin\xE9s pour \xE7a
+          ! (Dave)\r\n- On est jamais \xE0 l\u2019abri d\u2019un p\xE9pin ou d\u2019une
+          attaque surprise. C\u2019est peut-\xEAtre ce qui a pouss\xE9 les gens affili\xE9s
+          \xE0 la base \xE0 partir ! (Lize)\r\n- Rien ne sert de sp\xE9culer sur des
+          choses n\xE9gatives. \xC7a ne nous aidera pas \xE0 avancer plus vite. (Dave)\r\n-
+          Oui, oui, on a compris Capitaine Optimisme !! \u201C (Vladimir)\r\n\r\n\u201CPardon,
+          je ne sais pas ce qui m\u2019a pris. (Vladimir)\r\n- Pas de soucis, on est
+          tous assez stress\xE9s\u2026 (Dave)\r\n- T\u2019as besoin de faire une pause
+          ? (Lize)\r\n- Non, non, continuons\u2026\u201C (Vladimir)\r\n"
         type: 0
         typeString: 
       - title: Parenthetical
@@ -1607,13 +1654,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 19
         destinationConversationID: 1
-        destinationDialogueID: 20
-        isConnector: 0
-        priority: 2
-      - originConversationID: 1
-        originDialogueID: 19
-        destinationConversationID: 1
-        destinationDialogueID: 21
+        destinationDialogueID: 47
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -1625,8 +1666,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 467.0486
-        y: 342.96457
+        x: 453.6158
+        y: 462.36758
         width: 160
         height: 30
     - id: 20
@@ -1698,8 +1739,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 620.21313
-        y: 298.0279
+        x: 634.9672
+        y: 301.30658
         width: 160
         height: 30
     - id: 21
@@ -1771,7 +1812,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 631.60565
+        x: 639.80237
         y: 389.16708
         width: 160
         height: 30
@@ -1802,16 +1843,21 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Le commando explique au m\xE9decin local qu'ils sont l\xE0 pour les
-          d\xE9fendre, et qu'ils ont un otage \xE0 lib\xE9rer.\r\n\r\nComprenant la
-          sinc\xE9rit\xE9 du soldat, le m\xE9decin examine Vladimir. \r\nCe dernier
-          semble souffrir \xE9norm\xE9ment.\r\nLe m\xE9decin les informe que la balle
-          est encore log\xE9e dans la jambe, mais qu'il ne dispose pas du mat\xE9riel
-          et n'a pas les comp\xE9tences pour la d\xE9loger. Il lui administre toutefois
-          un tranquilisant.\r\nVladimir r\xE9it\xE8re sa demande qu'on le laisse seul
-          avec un moyen de contacter les forces alli\xE9es.\r\nLes 3 autres membres
-          du commando se r\xE9unissent en appart\xE9, et doivent d\xE9cider de la
-          marche \xE0 suivre.\r\n"
+        value: "\u201CDocteur, nous ne sommes pas ici pour alimenter le conflit mais
+          pour l'arr\xEAter. Certes, nous avons choisi de prendre part au conflit.
+          Mais tout comme vous, nous avons fait ce choix dans le but d\u2019aider
+          les innocents qui n\u2019ont pas choisis cette guerre. (Lize)\r\n- Asseyez-le
+          ici, je vais l'examiner. Mais uniquement apr\xE8s m'\xEAtre occup\xE9 de
+          mon patient actuel ! (M\xE9decin)\r\n- Tr\xE8s bien, merci docteur. (Lize)\r\n-
+          M\u2026Merci\u201D  (Vladimir)\r\n\r\n\u201CAllez Vladimir, tiens le coups
+          ! (Dave)\r\n- Ne t\u2019inqui\xE8te pas pour moi, ce n\u2019est pas grand-chose,
+          dans 20 minutes on est reparti. (Vladimir)\r\n- Bon. Aidez-le \xE0 venir
+          jusqu'\xE0 la chambre l\xE0-bas, et allonger le. (M\xE9decin)\r\n- Vous
+          pensez que \xE7a ira, docteur ? (Vladimir)\r\n- On va d\xE9j\xE0 vous allonger
+          et vous examiner, ensuite je pourrai en juger.\u201D (M\xE9decin)\r\n\r\n\u201CBon,
+          la blessure n\u2019est pas grave si trait\xE9e, mais \xE0 court terme elle
+          va \xEAtre douloureuse. Et surtout vous n'allez pas pouvoir marcher correctement
+          avant plusieurs jours.\u201D (M\xE9decin)\r\n"
         type: 0
         typeString: 
       - title: Parenthetical
@@ -1841,19 +1887,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 22
         destinationConversationID: 1
-        destinationDialogueID: 24
-        isConnector: 0
-        priority: 2
-      - originConversationID: 1
-        originDialogueID: 22
-        destinationConversationID: 1
-        destinationDialogueID: 25
-        isConnector: 0
-        priority: 2
-      - originConversationID: 1
-        originDialogueID: 22
-        destinationConversationID: 1
-        destinationDialogueID: 26
+        destinationDialogueID: 49
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -1865,8 +1899,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 812.61816
-        y: 294.86337
+        x: 820.08093
+        y: 302.32605
         width: 160
         height: 30
     - id: 23
@@ -1896,13 +1930,14 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Sous la menace, le m\xE9decin local examine tout de m\xEAme Vladimir.
-          \r\nCe dernier semble souffrir \xE9norm\xE9ment.\r\nLe m\xE9decin les informe
-          que la balle est encore log\xE9e dans la jambe, mais qu'il ne dispose pas
-          du mat\xE9riel et n'a pas les comp\xE9tences pour la d\xE9loger.\r\nVladimir
-          r\xE9it\xE8re sa demande qu'on le laisse seul avec un moyen de contacter
-          les forces alli\xE9es.\r\nLes 3 autres membres du commando se r\xE9unissent
-          en appart\xE9, et doivent d\xE9cider de la marche \xE0 suivre."
+        value: "\u201CSi vous n\u2019aidez pas mon ami ici pr\xE9sent, je d\xE9truis
+          tout votre mat\xE9riel m\xE9dical. Vous \xEAtes s\xFBr de votre choix ?
+          \u201D (Dave)\r\n\r\n\u201CArgh !  (M\xE9decin)\r\n- Je peux aussi m\u2019en
+          prendre directement \xE0 vous si vous pr\xE9f\xE9rez !\u201D (Dave)\r\n\r\n\u201CAllongez
+          le sur le brancard\u2026\u201D (M\xE9decin)\r\n\r\n\u201CVu l\u2019\xE9tat
+          de sa jambe, la douleur va \xEAtre insupportable, et son \xE9tat risque
+          d\u2019empirer. Le mieux serait de le laisser ici. Apr\xE8s, vous faites
+          ce que vous voulez.\u201D (M\xE9decin)\r\n"
         type: 0
         typeString: 
       - title: Parenthetical
@@ -1932,19 +1967,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 23
         destinationConversationID: 1
-        destinationDialogueID: 25
-        isConnector: 0
-        priority: 2
-      - originConversationID: 1
-        originDialogueID: 23
-        destinationConversationID: 1
-        destinationDialogueID: 26
-        isConnector: 0
-        priority: 2
-      - originConversationID: 1
-        originDialogueID: 23
-        destinationConversationID: 1
-        destinationDialogueID: 24
+        destinationDialogueID: 49
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -1957,7 +1980,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 816.4158
-        y: 386.00256
+        y: 384.51004
         width: 160
         height: 30
     - id: 24
@@ -2029,87 +2052,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1064.3926
-        y: 350.4662
-        width: 160
-        height: 30
-    - id: 25
-      fields:
-      - title: Title
-        value: Choix 4
-        type: 0
-        typeString: 
-      - title: Pictures
-        value: '[]'
-        type: 3
-        typeString: 
-      - title: Description
-        value: 
-        type: 0
-        typeString: 
-      - title: Actor
-        value: 1
-        type: 5
-        typeString: 
-      - title: Conversant
-        value: 2
-        type: 5
-        typeString: 
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Dialogue Text
-        value: Laisser un membre du commando avec lui
-        type: 0
-        typeString: 
-      - title: Parenthetical
-        value: 
-        type: 0
-        typeString: 
-      - title: Audio Files
-        value: '[]'
-        type: 3
-        typeString: 
-      - title: Video File
-        value: 
-        type: 0
-        typeString: 
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: 
-      conversationID: 1
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 1
-        originDialogueID: 25
-        destinationConversationID: 1
-        destinationDialogueID: 27
-        isConnector: 0
-        priority: 2
-      - originConversationID: 1
-        originDialogueID: 25
-        destinationConversationID: 1
-        destinationDialogueID: 33
-        isConnector: 0
-        priority: 2
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-      canvasRect:
-        serializedVersion: 2
-        x: 1065.4967
-        y: 301.64508
+        x: 1171.8555
+        y: 325.09305
         width: 160
         height: 30
     - id: 26
@@ -2169,160 +2113,6 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 26
         destinationConversationID: 1
-        destinationDialogueID: 27
-        isConnector: 0
-        priority: 2
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-      canvasRect:
-        serializedVersion: 2
-        x: 1081.6781
-        y: 410.7899
-        width: 160
-        height: 30
-    - id: 27
-      fields:
-      - title: Title
-        value: De Nouveau face au choix
-        type: 0
-        typeString: 
-      - title: Pictures
-        value: '[]'
-        type: 3
-        typeString: 
-      - title: Description
-        value: 
-        type: 0
-        typeString: 
-      - title: Actor
-        value: 2
-        type: 5
-        typeString: 
-      - title: Conversant
-        value: 1
-        type: 5
-        typeString: 
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Dialogue Text
-        value: "Au matin, Vladimir semble calm\xE9 (par la trop forte douleur| par
-          le tranquilisant].\r\nLe commando se r\xE9unit \xE0 nouveau afin de d\xE9cider
-          s'il doivent repartir \xE0 3 ou s\xE9parer l'\xE9quipe."
-        type: 0
-        typeString: 
-      - title: Parenthetical
-        value: 
-        type: 0
-        typeString: 
-      - title: Audio Files
-        value: '[]'
-        type: 3
-        typeString: 
-      - title: Video File
-        value: 
-        type: 0
-        typeString: 
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: 
-      conversationID: 1
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 1
-        originDialogueID: 27
-        destinationConversationID: 1
-        destinationDialogueID: 28
-        isConnector: 0
-        priority: 2
-      - originConversationID: 1
-        originDialogueID: 27
-        destinationConversationID: 1
-        destinationDialogueID: 29
-        isConnector: 0
-        priority: 2
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-      canvasRect:
-        serializedVersion: 2
-        x: 1367.4169
-        y: 402.09012
-        width: 160
-        height: 30
-    - id: 28
-      fields:
-      - title: Title
-        value: Choix 5
-        type: 0
-        typeString: 
-      - title: Pictures
-        value: '[]'
-        type: 3
-        typeString: 
-      - title: Description
-        value: 
-        type: 0
-        typeString: 
-      - title: Actor
-        value: 1
-        type: 5
-        typeString: 
-      - title: Conversant
-        value: 2
-        type: 5
-        typeString: 
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Dialogue Text
-        value: Laisser un membre du commando avec lui
-        type: 0
-        typeString: 
-      - title: Parenthetical
-        value: 
-        type: 0
-        typeString: 
-      - title: Audio Files
-        value: '[]'
-        type: 3
-        typeString: 
-      - title: Video File
-        value: 
-        type: 0
-        typeString: 
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: 
-      conversationID: 1
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 1
-        originDialogueID: 28
-        destinationConversationID: 1
         destinationDialogueID: 30
         isConnector: 0
         priority: 2
@@ -2335,81 +2125,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1261.0472
-        y: 471.59818
-        width: 160
-        height: 30
-    - id: 29
-      fields:
-      - title: Title
-        value: Choix 5
-        type: 0
-        typeString: 
-      - title: Pictures
-        value: '[]'
-        type: 3
-        typeString: 
-      - title: Description
-        value: 
-        type: 0
-        typeString: 
-      - title: Actor
-        value: 1
-        type: 5
-        typeString: 
-      - title: Conversant
-        value: 2
-        type: 5
-        typeString: 
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Dialogue Text
-        value: Abandonner Vladimir
-        type: 0
-        typeString: 
-      - title: Parenthetical
-        value: 
-        type: 0
-        typeString: 
-      - title: Audio Files
-        value: '[]'
-        type: 3
-        typeString: 
-      - title: Video File
-        value: 
-        type: 0
-        typeString: 
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: 
-      conversationID: 1
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 1
-        originDialogueID: 29
-        destinationConversationID: 1
-        destinationDialogueID: 32
-        isConnector: 0
-        priority: 2
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-      canvasRect:
-        serializedVersion: 2
-        x: 1365.6077
-        y: 323.62778
+        x: 1165.2603
+        y: 395.8645
         width: 160
         height: 30
     - id: 30
@@ -2439,10 +2156,26 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "L'ensemble du commando passe la nuit avec Vladimir.\r\nIls ne parviennent
-          \xE0 joindre un sup\xE9rieur par radio qu'au matin, souhaitant l'informer
-          de la blessure de Vladimir.\r\nMalheureusement, leur sup\xE9rieur les informe
-          que l'otage a \xE9t\xE9 \xE9limin\xE9 par l'arm\xE9e rebelle."
+        value: "\u201CC\u2019est bon, j\u2019ai compris\u2026 Il va falloir trouver
+          un endroit pour passer la nuit alors. (Vladimir)\r\n- Mettez-vous dans la
+          tente \xE0 c\xF4t\xE9, il n\u2019y a personne. (M\xE9decin)\r\n- Merci,
+          nous ne vous causerons pas d\u2019ennuis. (Dave)\r\n- J\u2019esp\xE8re bien
+          ! (M\xE9decin)\r\n- Bon essayons de contacter quelqu\u2019un \xE0 la base.\u201D
+          (Lize)\r\n\r\n\u201C\xC7a n\u2019a pas l\u2019air de fonctionner\u2026 (Lize)\r\n-
+          R\xE9-essaie encore une fois.\u201D (Dave)\r\n\r\n\u201CToujours pas, mince
+          !  (Lize)\r\n- Bon ce n\u2019est pas grave, on r\xE9essaiera demain. (Dave)\r\n-
+          Tu as raison reposons nous, on en a bien besoin !\u201D (Lize)\r\n\r\n\r\n\u201CSalut
+          Vlad\u2019, \xE7a va mieux ? (Dave)\r\n- \xC7a peut aller.. C\u2019est quoi
+          ces t\xEAtes d\u2019enterrements, qu\u2019est-ce qui s\u2019est pass\xE9
+          ?\u201D (Vladimir)\r\n\r\n\u201COn a r\xE9ussi \xE0 contacter un des sup\xE9rieurs..
+          Malheureusement, l\u2019otage qu\u2019on devait r\xE9cup\xE9rer \xE0 \xE9t\xE9
+          abattu dans une attaque rebelle cette nuit. En \xE9tablissant la liste des
+          victimes d\u2019apr\xE8s les corps trouv\xE9s, les forces alli\xE9es l\u2019ont
+          reconnu\u2026 (Lize)\r\n- Mais non, ce n\u2019est pas vrai ! \u2018Tain
+          ! On fait comment pour la suite de la mission ? (Vladimir)\r\n- La base
+          va nous recontacter, on les a inform\xE9s de ton \xE9tat de sant\xE9. Ils
+          doivent faire un point pour d\xE9terminer quoi faire nous concernant.\u201D
+          (Dave)\r\n\r\n\u201C Bordel\u2026 MAIS QUEL ABRUTI !\u201D (Vladimir)\r\n"
         type: 0
         typeString: 
       - title: Parenthetical
@@ -2484,8 +2217,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1262.6865
-        y: 544.54895
+        x: 1173.1343
+        y: 457.9817
         width: 160
         height: 30
     - id: 31
@@ -2551,14 +2284,14 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1105.3096
-        y: 614.2211
+        x: 1175.4589
+        y: 521.6838
         width: 160
         height: 30
     - id: 32
       fields:
       - title: Title
-        value: "Comment partir \xE0 2 ?"
+        value: Comment partir ?
         type: 0
         typeString: 
       - title: Pictures
@@ -2582,10 +2315,19 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Le commando laisse Vladimir entre les mains du m\xE9decin, avec une
-          radio.\r\n\r\nArriv\xE9s au abords de la ville, ceux-ci se rendent compte
-          qu'ils ne disposent d'aucun v\xE9hicule. Il doivent alors d\xE9cider s'ils
-          r\xE9quisitionnent un v\xE9hicule civil, quitte \xE0 recourir \xE0 la force."
+        value: "\u201CBien, on te laisse une des radio, tu nous serviras de relai.
+          Si on a un soucis, on te pr\xE9viendra. (Dave)\r\n- Bien re\xE7u, je garde
+          contact avec vous et le QG. Si quoi que ce soit me parvient, je vous le
+          transmets ! (Vladimir)\r\n- On doit y aller Dave, il ne faut pas laisser
+          la mission prendre davantage de retard. (Lize)\r\n- Oui. Vladimir, reste
+          en contact, et ne te repose pas trop non plus !\u201D (Dave).\r\n\r\n\u201CLe
+          d\xE9tour va nous co\xFBter la mission si on continue \xE0 cette allure.
+          (Lize)\r\n- On n\u2019a pas le choix, on doit continuer la mission et surtout
+          la terminer.\u201D (Dave)\r\n- Peut-\xEAtre qu\u2019on a le choix justement,
+          on peut sans doute trouver un moyen d\u2019y \xEAtre plus rapidement. (Lize)\r\n-
+          \xC0 quoi tu penses ? Un v\xE9hicule ? (Dave)\r\n- Oui, on peut s\xFBrement
+          faire demi-tour \xE0 l'entr\xE9e de la ville et en r\xE9quisitionner un.\u201D
+          (Lize)\r\n"
         type: 0
         typeString: 
       - title: Parenthetical
@@ -2633,90 +2375,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1295.7568
-        y: 244.3461
-        width: 160
-        height: 30
-    - id: 33
-      fields:
-      - title: Title
-        value: Comment partir seul ?
-        type: 0
-        typeString: 
-      - title: Pictures
-        value: '[]'
-        type: 3
-        typeString: 
-      - title: Description
-        value: 
-        type: 0
-        typeString: 
-      - title: Actor
-        value: 2
-        type: 5
-        typeString: 
-      - title: Conversant
-        value: 1
-        type: 5
-        typeString: 
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Dialogue Text
-        value: "Le commando laisse Vladimir entre les mains du m\xE9decin, avec une
-          radio.\r\n\r\nArriv\xE9s au abords de la ville, ceux-ci se rendent compte
-          qu'ils ne disposent d'aucun v\xE9hicule. Il doivent alors d\xE9cider s'ils
-          r\xE9quisitionnent un v\xE9hicule civil, quitte \xE0 recourir \xE0 la force."
-        type: 0
-        typeString: 
-      - title: Parenthetical
-        value: 
-        type: 0
-        typeString: 
-      - title: Audio Files
-        value: '[]'
-        type: 3
-        typeString: 
-      - title: Video File
-        value: 
-        type: 0
-        typeString: 
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: 
-      conversationID: 1
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 1
-        originDialogueID: 33
-        destinationConversationID: 1
-        destinationDialogueID: 34
-        isConnector: 0
-        priority: 2
-      - originConversationID: 1
-        originDialogueID: 33
-        destinationConversationID: 1
-        destinationDialogueID: 35
-        isConnector: 0
-        priority: 2
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-      canvasRect:
-        serializedVersion: 2
-        x: 1502.0122
-        y: 242.98157
+        x: 1174.8613
+        y: 263.74905
         width: 160
         height: 30
     - id: 34
@@ -2776,7 +2436,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 34
         destinationConversationID: 1
-        destinationDialogueID: 37
+        destinationDialogueID: 50
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -2788,8 +2448,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1304.2747
-        y: 153.27129
+        x: 1293.3372
+        y: 200.14633
         width: 160
         height: 30
     - id: 35
@@ -2849,7 +2509,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 35
         destinationConversationID: 1
-        destinationDialogueID: 36
+        destinationDialogueID: 52
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -2861,8 +2521,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1504.0984
-        y: 149.49966
+        x: 1494.7234
+        y: 263.5622
         width: 160
         height: 30
     - id: 36
@@ -2892,11 +2552,20 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Alors qu'ils marchent dans les terres sauvages, le commando aper\xE7oit
-          une gigantesque explosion \xE0 environ 1km.\r\nCela ne laisse peut de doute
-          quant \xE0 l'origine : il s'agit tr\xE8s certainement d'un nouvel attentat
-          perpetr\xE9 par l'arm\xE9e rebelle sur des civils. De l'aide imm\xE9diate
-          peut alors \xEAtre n\xE9cessaire."
+        value: "\u201CTu penses que \xE7a fait combien de temps qu\u2019on marche
+          ? (Dave)\r\n- Je dirais quelques heures, peut-\xEAtre trois. (Lize)\r\n-
+          Je sais que c\u2019est dur, mais il faut qu\u2019on maintienne la cadence
+          m\xEAme sous cette chaleur aride (Dave)\r\n- Oui, j\u2019essaye\u2026 Il
+          faut que je fixe l\u2019objectif, \xE7a m\u2019aide. J\u2019ai l\u2019impression
+          qu\u2019on se rapproche ...\u201D (Lize)\r\n\r\n\u201CQu\u2019est-ce que
+          ?! (Lize)\r\n- \xC7a vient d\u2019exploser, s\xFBrement un attentat de l\u2019arm\xE9e
+          rebelle ! (Dave)\r\n- Ce n\u2019est pas vrai ! Regarde la fum\xE9e, c\u2019est
+          l\xE0-bas ! C\u2019est la panique ! (Lize)\r\n- P\u2019tain, j\u2019ai jamais
+          vu \xE7a. Juste sous nos yeux.\u201D (Dave)\r\n\r\nUne \xE9paisse fum\xE9e
+          noire s\u2019\xE9levait dans le ciel. Dans les petites ruelles de cette
+          ville auparavant si calme, r\xE9gnait d\xE9sormais un chaos naissant. Certains
+          habitants couraient, d\u2019autres pleuraient, et le reste ne bougeait plus.
+          (Dave)\r\n"
         type: 0
         typeString: 
       - title: Parenthetical
@@ -2975,7 +2644,18 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Le commando roule jusqu'\xE0 la ville du contact"
+        value: "\u201CJe n\u2019arrive pas \xE0 ne pas me sentir coupable \u2026 par
+          rapport \xE0 Vladimir, je veux dire. (Lize)\r\n-J\u2019y pense encore moi
+          aussi. M\xEAme si le choix \xE9tait difficile, il faut que l\u2019on reste
+          concentr\xE9 sur la mission. (Dave)\r\n- C\u2019est vrai, les derni\xE8res
+          nouvelles de l\u2019otage remontent \xE0 plus de 5 jours \u2026 (Lize)\r\n-
+          J\u2019esp\xE8re surtout que notre contact sera fiable d\xE9j\xE0. On n\u2019a
+          que tr\xE8s peu d\u2019infos sur lui, juste sa description visuelle et son
+          pr\xE9nom.\u201D (Dave)\r\n\r\n\r\n\u201CVille en vue ! (Lize)\r\n- On va
+          se garer \xE0 l\u2019entr\xE9e de la ville et continuer \xE0 pieds. (Dave)\r\n-
+          On va enfin pouvoir se rapprocher de notre objectif.\u201D (Lize)\r\n\r\nNous
+          devons trouver cet homme nomm\xE9 \u201CAbir\u201D. Il sait o\xF9 se trouve
+          l\u2019otage que nous devons lib\xE9rer. (Dave)\r\n"
         type: 0
         typeString: 
       - title: Parenthetical
@@ -3005,7 +2685,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 37
         destinationConversationID: 1
-        destinationDialogueID: 15
+        destinationDialogueID: 16
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -3017,8 +2697,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1096.168
-        y: 146.74019
+        x: 1100.8556
+        y: 204.55273
         width: 160
         height: 30
     - id: 38
@@ -3048,7 +2728,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Intervenir
+        value: "Aller porter secours aux victimes de l\u2019explosion"
         type: 0
         typeString: 
       - title: Parenthetical
@@ -3090,7 +2770,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1736.6655
+        x: 1700.728
         y: 59.272415
         width: 160
         height: 30
@@ -3121,9 +2801,18 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Le commando d\xE9cide d'intervenir (\xE0 2 ou \xE0 3), et se dirige
-          alors vers le point de l'explosion.\r\nLa mission principale est mise de
-          c\xF4t\xE9."
+        value: "\u201CIl faut qu\u2019on y aille ! (Dave)\r\n- Attends ! Et la mission
+          ? Que va devenir notre otage ? (Lize)\r\n- Mais on ne peut pas les laisser
+          comme \xE7a ! Viens, Lize ! Allons les aider, \xE7a doit \xEAtre une attaque
+          de civils !\u201D (Dave)\r\n\r\n\u201CAcc\xE9l\xE8re ! Allez ! (Dave)\r\n-
+          \xC7a va, c\u2019est bon ! Je te suis l\xE0\u201D (Lize)\r\n\r\n\u201CL\xE0,
+          \xE7a vient de la droite !\" (Lize)\r\n\r\n\"Au bout, par l\xE0 !\u201D
+          (Dave)\r\n\r\nL\u2019horreur nous gagne alors et stoppe net notre course.
+          L\u2019explosion avait tout d\xE9vast\xE9. Sous le choc d\u2019un tel d\xE9cor,
+          nous restons fig\xE9s un instant. (Dave)\r\n\r\nLe cri soudain d\u2019une
+          femme an\xE9antie de terreur nous force \xE0 reprendre nos esprits, et nous
+          nous jetons alors dans la foule et les d\xE9combres, pr\xEAts \xE0 venir
+          en aide, du mieux que nous pouvons. (Dave)\r\n"
         type: 0
         typeString: 
       - title: Parenthetical
@@ -3165,8 +2854,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1736.1672
-        y: 115.9112
+        x: 1700.2297
+        y: 115.91121
         width: 160
         height: 30
     - id: 40
@@ -3196,7 +2885,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Continuer la route
+        value: "Se d\xE9tourner de la catastrophe et se concentrer sur la mission"
         type: 0
         typeString: 
       - title: Parenthetical
@@ -3238,14 +2927,14 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1277.9391
-        y: 49.980713
+        x: 1302.9391
+        y: 54.668213
         width: 160
         height: 30
     - id: 41
       fields:
       - title: Title
-        value: "Vers la ville du contact (\xE0 pieds)"
+        value: "Se d\xE9tourner de la catastrophe"
         type: 0
         typeString: 
       - title: Pictures
@@ -3265,7 +2954,12 @@ MonoBehaviour:
         type: 5
         typeString: 
       - title: Menu Text
-        value: 
+        value: "\u201CIl faut absolument qu\u2019on avance, on a d\xE9j\xE0 perdu
+          suffisamment de temps sur la mission. On ne sait m\xEAme pas si l\u2019otage
+          est encore en vie. On continue !\u201D (Dave)\r\n\r\n\u201CVille en vue
+          ! (Dave)\r\n- On va enfin pouvoir se rapprocher de notre objectif.\u201D
+          (Lize)\r\n\r\nNous devons trouver cet homme nomm\xE9 \u201CAbir\u201D. Il
+          sait o\xF9 se trouve l\u2019otage que nous devons lib\xE9rer. (Dave)\r\n"
         type: 0
         typeString: 
       - title: Dialogue Text
@@ -3299,7 +2993,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 41
         destinationConversationID: 1
-        destinationDialogueID: 15
+        destinationDialogueID: 16
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -3311,8 +3005,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1100.724
-        y: 51.879425
+        x: 1111.6616
+        y: 70.629425
         width: 160
         height: 30
     - id: 42
@@ -3378,8 +3072,794 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1736.0391
+        x: 1700.1016
         y: 190.24048
+        width: 160
+        height: 30
+    - id: 43
+      fields:
+      - title: Title
+        value: Choix 8
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: 
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: 
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: "Rester \xE9vasif"
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: 
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 1
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 43
+        destinationConversationID: 1
+        destinationDialogueID: 44
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 496.51685
+        y: 75.9039
+        width: 160
+        height: 30
+    - id: 44
+      fields:
+      - title: Title
+        value: "Trajet avec les forces alli\xE9es 2 (en restant \xE9vasif)"
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: 
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: 
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: "- Ah, on fonctionne diff\xE9remment nous dans certains cas. On a eu
+          quelques soucis par le pass\xE9, ce sont des histoires de planification
+          interne au r\xE9giment. (Dave)\r\n- Je vois, vous devez avoir vos raisons.
+          Je ne savais pas que \xE7a se faisait. (Sam)\r\n- Si, si, selon l\u2019objectif
+          du commando, entre autres.\u201D (Dave)\r"
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: 
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 1
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 44
+        destinationConversationID: 1
+        destinationDialogueID: 45
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 698.4743
+        y: 76.25865
+        width: 160
+        height: 30
+    - id: 45
+      fields:
+      - title: Title
+        value: "Trajet avec les forces alli\xE9es 3"
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: "\u201CJe vous laisse vous reposer un peu. \xBB (Sam)\r\n\r\n\u201CIci
+          le g\xE9n\xE9ral Allan, vous pouvez d\xE9poser le commando Azure ici, c\u2019est
+          le plus proche de leur objectif. Rejoignez-nous ensuite, on continue d\u2019avancer.
+          (G\xE9n\xE9ral)\r\n- Re\xE7u ! Bon, vous avez entendu ? Nos routes se s\xE9parent
+          ici. (Sam)\r\n- Merci de nous avoir rapproch\xE9. Bon courage soldat Sam
+          ! (Dave)\r\n- Au revoir\u201D (Lize)\r"
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 1
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 45
+        destinationConversationID: 1
+        destinationDialogueID: 14
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 897.26404
+        y: 22.947922
+        width: 160
+        height: 30
+    - id: 47
+      fields:
+      - title: Title
+        value: Continuer
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: 
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: 
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Continuer
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: 
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 1
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 47
+        destinationConversationID: 1
+        destinationDialogueID: 48
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 453.6158
+        y: 410.8749
+        width: 160
+        height: 30
+    - id: 48
+      fields:
+      - title: Title
+        value: "Avec le m\xE9decin"
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: 
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: 
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: "\u201CLe m\xE9decin est l\xE0, venez !\u201D (Lize)\r\n\r\n\u201CQu\u2019est-ce
+          que vous me voulez ? (M\xE9decin)\r\n- Notre ami est gravement bless\xE9,
+          nous avons besoin de quelqu\u2019un pour l\u2019examiner, et pour le soulager
+          si possible. On a vraiment besoin de vous ! (Dave)\r\n- Hors de question,
+          je ne m\u2019occupe que des civils. Je refuse de perdre du temps \xE0 soigner
+          des soldats. Allez voir quelqu\u2019un d\u2019autre. (M\xE9decin)\r\n- Nous
+          n\u2019avons pas le temps de chercher un autre m\xE9decin. Nous sommes de
+          votre c\xF4t\xE9, notre mission est prot\xE9ger des civils, comme vous.
+          Aidez-nous s\u2019il-vous-pla\xEEt ! (Dave)\r\n- Quel que soit le camp,
+          vous \xEAtes des  acteurs directs de ce conflit. Je vous l\u2019ai dit,
+          c\u2019est HORS DE QUESTION !\u201D (M\xE9decin)\r\n"
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: 
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 1
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 48
+        destinationConversationID: 1
+        destinationDialogueID: 20
+        isConnector: 0
+        priority: 2
+      - originConversationID: 1
+        originDialogueID: 48
+        destinationConversationID: 1
+        destinationDialogueID: 21
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 456.60095
+        y: 302.66605
+        width: 160
+        height: 30
+    - id: 49
+      fields:
+      - title: Title
+        value: Face au choix
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: 
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: 
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: "\u201CVous avez entendu le doc\u2019, il faut me laisser ici. Il ne
+          me fera pas de mal et je me tiendrai \xE0 carreau. Laissez-moi une radio
+          et tout se passera bien, ne vous en faites pas. (Vladimir)\r\n- On a bien
+          r\xE9ussi \xE0 arriver jusqu\u2019ici avec toi, on peut bien continuer comme
+          \xE7a ! (Dave)\r\n- Vu comme on a gal\xE9r\xE9 pour le faire, il est beaucoup
+          plus prudent de me laisser ici. Ne sois pas si born\xE9 Dave, vous avez
+          d\xE9j\xE0 perdu trop de temps. (Vladimir)\r\n- Tu en penses quoi toi, Lize
+          ? (Dave)\r\n- Ca ne me fait pas plaisir de l\u2019admettre, mais Vladimir
+          a raison. Continuer comme on l\u2019a fait, dans son \xE9tat, est extr\xEAmement
+          risqu\xE9. Et il faut peut-\xEAtre prioriser la mission ... (Lize)\r\n-
+          Ce n\u2019est pas dans mes habitudes d\u2019abandonner un camarade, vous
+          le savez\u2026 Au-del\xE0 de la mission, la survie et l\u2019int\xE9grit\xE9
+          physique de mes camarade et proches sont encore plus importantes\u2026\u201D
+          (Dave)\r\n"
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: 
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 1
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 49
+        destinationConversationID: 1
+        destinationDialogueID: 24
+        isConnector: 0
+        priority: 2
+      - originConversationID: 1
+        originDialogueID: 49
+        destinationConversationID: 1
+        destinationDialogueID: 26
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 986.565
+        y: 344.95776
+        width: 160
+        height: 30
+    - id: 50
+      fields:
+      - title: Title
+        value: "R\xE9quisition d'un v\xE9hicule"
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: 
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: 
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: "\u201CHum, un v\xE9hicule, c\u2019est pr\xE9cieux pour les gens en
+          ces temps-ci. \xC7a va \xEAtre difficile de convaincre quelqu\u2019un, mais
+          le jeu en vaut peut-\xEAtre la chandelle. (Dave)\r\n- Justement, je vois
+          un camion pr\xE8s de ce b\xE2timent. Allons-y, on y trouvera peut-\xEAtre
+          quelqu\u2019un.\u201D (Lize)\r\n\r\n\u201CTu penses qu\u2019il fonctionne
+          encore ? (Lize)\r\n- En tout cas les vitres sont pleines de poussi\xE8re.
+          Je pense qu\u2019on peut l\u2019ouvrir et s\u2019il fonctionne, le d\xE9marrer
+          facilement. Ces vieux mod\xE8le ne sont pas tr\xE8s s\xE9curis\xE9s. (Dave)\r\n-
+          Ah, tu sais faire \xE7a toi ?! Ok vas-y, je vais garder un \u0153il sur
+          les alentours.\u201D (Lize)\r\n"
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: 
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 1
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 50
+        destinationConversationID: 1
+        destinationDialogueID: 51
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 1296.4622
+        y: 150.14624
+        width: 160
+        height: 30
+    - id: 51
+      fields:
+      - title: Title
+        value: Continuer
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: 
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: 
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Continuer
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: 
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 1
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 51
+        destinationConversationID: 1
+        destinationDialogueID: 37
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 1102.7122
+        y: 147.02124
+        width: 160
+        height: 30
+    - id: 52
+      fields:
+      - title: Title
+        value: "Partir \xE0 pieds"
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: 
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: 
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: "\u201CHum, n\xE9gatif, on va perdre trop de temps \xE0 chercher un
+          v\xE9hicule, de plus les rares personne qui ont encore une voiture fonctionnelle
+          ici en ont autant besoin que nous ! (Dave)\r\n- S\xFBrement \u2026\u201D
+          (Lize) \r\n"
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: 
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 1
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 52
+        destinationConversationID: 1
+        destinationDialogueID: 53
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 1499.4109
+        y: 190.1247
+        width: 160
+        height: 30
+    - id: 53
+      fields:
+      - title: Title
+        value: Continuer
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: 
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: 
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Continuer
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: 
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 1
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 53
+        destinationConversationID: 1
+        destinationDialogueID: 36
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 1494.7234
+        y: 130.74963
         width: 160
         height: 30
   syncInfo:
