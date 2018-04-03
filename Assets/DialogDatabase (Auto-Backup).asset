@@ -232,15 +232,16 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "J'entends le vronbissement sourd des pales de l'h\xE9licopt\xE8re.
-          Nous avons pass\xE9 la fronti\xE8re depuis un moment d\xE9j\xE0.\r\nEn regardant
-          par le fen\xEAtre, tout me parait si calme. Nous survolons les quelques
-          villages endormis. Le reste n'est que for\xEAts \xE9parses et terres arrides.\r\nDave
-          m'interpelle :\r\n\" T'es pr\xEAt? On y est bient\xF4t l'ami.\" (Vladimir)\r\nLize
-          et Vladimir lui jette un regard rapide. Ils semblent tous deux concentr\xE9s,
-          le regard lointain comme pour conserver leur d\xE9termination.\r\nLe pilote
-          nous indique alors que l'on est \xE0 2 minutes et 12 secondes du point d'atterissage.\r\n\"C'est
-          bon, on a tout\" (Lize)"
+        value: "Nous avons pass\xE9 la fronti\xE8re depuis un moment d\xE9j\xE0.\r
+          En regardant par le fen\xEAtre, tout me parait si calme. Nous survolons
+          les quelques villages endormis. Le reste n'est que for\xEAts \xE9parses
+          et terres arides.\r\n\" T'es pr\xEAt? On y est bient\xF4t l'ami.\" (Vladimir)\r\nLize
+          lui jette un regard rapide. Ils semblent tous deux concentr\xE9s, le regard
+          lointain comme pour conserver leur d\xE9termination.\r\nNotre mission est
+          de rejoindre le contact que l'on nous a communiqu\xE9, \xE0 une vingtaine
+          de kilom\xE8tres d'ici. Celui-ci poss\xE8de des informations sur l'emplacement
+          de l'otage que nous devons exfiltrer de toute urgence. \n\"C'est bon, on
+          a tout\" (Lize)\nElle ouvre alors la lourde porte."
         type: 0
         typeString: 
       - title: Parenthetical
@@ -386,10 +387,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Le commando saut tour \xE0 tour dans le calme de la nuit.\r\n\r\nAvant
-          l'aterrissage, Vladimir se prend une branche d'arbre.\r\n\r\n\xC0 l'aterrissage,
-          surpris par la douleur, Vladimir se fracture la jambe.\r\n\r\nPuis les 3
-          membres de l'\xE9quipe se r\xE9unisse en laissant leur parachute.\r"
+        value: 
         type: 0
         typeString: 
       - title: Parenthetical
@@ -2031,8 +2029,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1031.6056
-        y: 425.876
+        x: 1064.3926
+        y: 350.4662
         width: 160
         height: 30
     - id: 25
@@ -2110,8 +2108,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1042.5459
-        y: 306.56314
+        x: 1065.4967
+        y: 301.64508
         width: 160
         height: 30
     - id: 26
@@ -2183,8 +2181,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1034.1372
-        y: 371.44565
+        x: 1081.6781
+        y: 410.7899
         width: 160
         height: 30
     - id: 27
@@ -2264,8 +2262,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1396.925
-        y: 297.17215
+        x: 1367.4169
+        y: 402.09012
         width: 160
         height: 30
     - id: 28
@@ -2325,12 +2323,6 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 28
         destinationConversationID: 1
-        destinationDialogueID: 27
-        isConnector: 0
-        priority: 2
-      - originConversationID: 1
-        originDialogueID: 28
-        destinationConversationID: 1
         destinationDialogueID: 30
         isConnector: 0
         priority: 2
@@ -2343,8 +2335,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1269.2439
-        y: 465.0408
+        x: 1261.0472
+        y: 471.59818
         width: 160
         height: 30
     - id: 29
@@ -2400,7 +2392,13 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks: []
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 29
+        destinationConversationID: 1
+        destinationDialogueID: 32
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -2410,8 +2408,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1472.3347
-        y: 465.20483
+        x: 1365.6077
+        y: 323.62778
         width: 160
         height: 30
     - id: 30
@@ -2613,7 +2611,19 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks: []
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 32
+        destinationConversationID: 1
+        destinationDialogueID: 35
+        isConnector: 0
+        priority: 2
+      - originConversationID: 1
+        originDialogueID: 32
+        destinationConversationID: 1
+        destinationDialogueID: 34
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -2623,8 +2633,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1031.6056
-        y: 475.876
+        x: 1295.7568
+        y: 244.3461
         width: 160
         height: 30
     - id: 33
@@ -2705,8 +2715,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1371.1136
-        y: 30.794205
+        x: 1502.0122
+        y: 242.98157
         width: 160
         height: 30
     - id: 34
@@ -2762,7 +2772,13 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks: []
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 34
+        destinationConversationID: 1
+        destinationDialogueID: 37
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -2772,8 +2788,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1418.6545
-        y: 90.630264
+        x: 1304.2747
+        y: 153.27129
         width: 160
         height: 30
     - id: 35
@@ -2829,6 +2845,529 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 35
+        destinationConversationID: 1
+        destinationDialogueID: 36
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 1504.0984
+        y: 149.49966
+        width: 160
+        height: 30
+    - id: 36
+      fields:
+      - title: Title
+        value: Nouvel attentat
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: 
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: 
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: "Alors qu'ils marchent dans les terres sauvages, le commando aper\xE7oit
+          une gigantesque explosion \xE0 environ 1km.\r\nCela ne laisse peut de doute
+          quant \xE0 l'origine : il s'agit tr\xE8s certainement d'un nouvel attentat
+          perpetr\xE9 par l'arm\xE9e rebelle sur des civils. De l'aide imm\xE9diate
+          peut alors \xEAtre n\xE9cessaire."
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: 
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 1
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 36
+        destinationConversationID: 1
+        destinationDialogueID: 38
+        isConnector: 0
+        priority: 2
+      - originConversationID: 1
+        originDialogueID: 36
+        destinationConversationID: 1
+        destinationDialogueID: 40
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 1495.6608
+        y: 56.94275
+        width: 160
+        height: 30
+    - id: 37
+      fields:
+      - title: Title
+        value: Vers la ville du contact (en voiture)
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: 
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: 
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: "Le commando roule jusqu'\xE0 la ville du contact"
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: 
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 1
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 37
+        destinationConversationID: 1
+        destinationDialogueID: 15
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 1096.168
+        y: 146.74019
+        width: 160
+        height: 30
+    - id: 38
+      fields:
+      - title: Title
+        value: Choix 7
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: 
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: 
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Intervenir
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: 
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 1
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 38
+        destinationConversationID: 1
+        destinationDialogueID: 39
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 1736.6655
+        y: 59.272415
+        width: 160
+        height: 30
+    - id: 39
+      fields:
+      - title: Title
+        value: Vers une autre mission
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: 
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: 
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: "Le commando d\xE9cide d'intervenir (\xE0 2 ou \xE0 3), et se dirige
+          alors vers le point de l'explosion.\r\nLa mission principale est mise de
+          c\xF4t\xE9."
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: 
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 1
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 39
+        destinationConversationID: 1
+        destinationDialogueID: 42
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 1736.1672
+        y: 115.9112
+        width: 160
+        height: 30
+    - id: 40
+      fields:
+      - title: Title
+        value: Choix 7
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: 
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: 
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Continuer la route
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: 
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 1
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 40
+        destinationConversationID: 1
+        destinationDialogueID: 41
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 1277.9391
+        y: 49.980713
+        width: 160
+        height: 30
+    - id: 41
+      fields:
+      - title: Title
+        value: "Vers la ville du contact (\xE0 pieds)"
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: 
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: 
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: 
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 1
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 41
+        destinationConversationID: 1
+        destinationDialogueID: 15
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 1100.724
+        y: 51.879425
+        width: 160
+        height: 30
+    - id: 42
+      fields:
+      - title: Title
+        value: Fin
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: 
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: 
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Fin
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: 
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 1
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
       userScript: 
@@ -2839,8 +3378,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1507.1792
-        y: 1
+        x: 1736.0391
+        y: 190.24048
         width: 160
         height: 30
   syncInfo:

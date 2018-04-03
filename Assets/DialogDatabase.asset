@@ -232,15 +232,16 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "J'entends le vronbissement sourd des pales de l'h\xE9licopt\xE8re.
-          Nous avons pass\xE9 la fronti\xE8re depuis un moment d\xE9j\xE0.\r\nEn regardant
-          par le fen\xEAtre, tout me parait si calme. Nous survolons les quelques
-          villages endormis. Le reste n'est que for\xEAts \xE9parses et terres arrides.\r\nDave
-          m'interpelle :\r\n\" T'es pr\xEAt? On y est bient\xF4t l'ami.\" (Vladimir)\r\nLize
-          et Vladimir lui jette un regard rapide. Ils semblent tous deux concentr\xE9s,
-          le regard lointain comme pour conserver leur d\xE9termination.\r\nLe pilote
-          nous indique alors que l'on est \xE0 2 minutes et 12 secondes du point d'atterissage.\r\n\"C'est
-          bon, on a tout\" (Lize)"
+        value: "Nous avons pass\xE9 la fronti\xE8re depuis un moment d\xE9j\xE0.\r
+          En regardant par le fen\xEAtre, tout me parait si calme. Nous survolons
+          les quelques villages endormis. Le reste n'est que for\xEAts \xE9parses
+          et terres arides.\r\n\" T'es pr\xEAt? On y est bient\xF4t l'ami.\" (Vladimir)\r\nLize
+          lui jette un regard rapide. Ils semblent tous deux concentr\xE9s, le regard
+          lointain comme pour conserver leur d\xE9termination.\r\nNotre mission est
+          de rejoindre le contact que l'on nous a communiqu\xE9, \xE0 une vingtaine
+          de kilom\xE8tres d'ici. Celui-ci poss\xE8de des informations sur l'emplacement
+          de l'otage que nous devons exfiltrer de toute urgence. \n\"C'est bon, on
+          a tout\" (Lize)\nElle ouvre alors la lourde porte."
         type: 0
         typeString: 
       - title: Parenthetical
@@ -386,10 +387,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Le commando saut tour \xE0 tour dans le calme de la nuit.\r\n\r\nAvant
-          l'aterrissage, Vladimir se prend une branche d'arbre.\r\n\r\n\xC0 l'aterrissage,
-          surpris par la douleur, Vladimir se fracture la jambe.\r\n\r\nPuis les 3
-          membres de l'\xE9quipe se r\xE9unisse en laissant leur parachute.\r"
+        value: 
         type: 0
         typeString: 
       - title: Parenthetical
