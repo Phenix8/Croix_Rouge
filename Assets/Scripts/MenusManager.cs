@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
+using PixelCrushers.DialogueSystem;
 
 public class MenusManager : MonoBehaviour
 {
@@ -18,6 +19,8 @@ public class MenusManager : MonoBehaviour
     enum E_Menu { MainMenu, InGame, Pause, Options}
     E_Menu M_LastMenu = E_Menu.MainMenu;
     E_Menu M_ActualMenu = E_Menu.MainMenu;
+
+    public GameObject G_Dialogue;
 
 	// Use this for initialization
 	void Start ()
@@ -145,19 +148,21 @@ public class MenusManager : MonoBehaviour
 
     public void AnimatedTransToAudio()
     {
-        DOTween.To(() => CG_IG_Audio.alpha, x => CG_IG_Audio.alpha = x, 1f, 2f).SetEase(Ease.InQuint).SetDelay(0.25f);
+        CG_InGame.blocksRaycasts = true;
+        DOTween.To(() => CG_IG_Audio.alpha, x => CG_IG_Audio.alpha = x, 1f, 1f).SetEase(Ease.InQuint).SetDelay(0.25f);
         if(CG_IG_Actions.alpha == 1)
         {
-            DOTween.To(() => CG_IG_Actions.alpha, x => CG_IG_Actions.alpha = x, 0f, 2f).SetEase(Ease.InOutQuint).SetDelay(0.25f);
+            DOTween.To(() => CG_IG_Actions.alpha, x => CG_IG_Actions.alpha = x, 0f, 1f).SetEase(Ease.InOutQuint).SetDelay(0.25f);
         }
     }
 
     public void AnimatedTransToAction()
     {
-        DOTween.To(() => CG_IG_Actions.alpha, x => CG_IG_Actions.alpha = x, 1f, 2f).SetEase(Ease.InQuint).SetDelay(0.25f);
+        CG_InGame.blocksRaycasts = false;
+        DOTween.To(() => CG_IG_Actions.alpha, x => CG_IG_Actions.alpha = x, 1f, 1f).SetEase(Ease.InQuint).SetDelay(0.25f);
         if (CG_IG_Audio.alpha == 1)
         {
-            DOTween.To(() => CG_IG_Audio.alpha, x => CG_IG_Audio.alpha = x, 0f, 2f).SetEase(Ease.InOutQuint).SetDelay(0.25f);
+            DOTween.To(() => CG_IG_Audio.alpha, x => CG_IG_Audio.alpha = x, 0f, 1f).SetEase(Ease.InOutQuint).SetDelay(0.25f);
         }
     }
 
@@ -168,6 +173,13 @@ public class MenusManager : MonoBehaviour
         M_ActualMenu = E_Menu.InGame;
         ModifyAlphaMenuAnimated(1);
         AnimatedTransToAudio();
+        StartCoroutine(StartDG());
+    }
+
+    IEnumerator StartDG()
+    {
+        yield return new WaitForSeconds(2.5f);
+        G_Dialogue.SetActive(true);
     }
 
     public void OpenOptions()

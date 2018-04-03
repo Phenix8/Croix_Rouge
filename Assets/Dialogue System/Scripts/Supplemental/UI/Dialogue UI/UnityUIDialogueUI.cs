@@ -31,6 +31,8 @@ namespace PixelCrushers.DialogueSystem
     public class UnityUIDialogueUI : AbstractDialogueUI
     {
 
+        public MenusManager myMenu;
+
         /// <summary>
         /// The UI root.
         /// </summary>
@@ -316,6 +318,7 @@ namespace PixelCrushers.DialogueSystem
 
         public override void ShowResponses(Subtitle subtitle, Response[] responses, float timeout)
         {
+            myMenu.AnimatedTransToAction();
             isShowingResponses = true;
             if (findActorOverrides)
             {
@@ -347,6 +350,7 @@ namespace PixelCrushers.DialogueSystem
 
         public override void HideResponses()
         {
+            myMenu.AnimatedTransToAudio();
             isShowingResponses = false;
             dialogue.responseMenu.DestroyInstantiatedButtons();
             base.HideResponses();
