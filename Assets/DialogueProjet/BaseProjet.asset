@@ -311,7 +311,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 476
+        x: 474.86365
         y: 165
         width: 160
         height: 30
@@ -359,7 +359,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: DoSoundLeft(LOOOOOOOL);
         type: 0
         typeString: 
       conversationID: 1
@@ -385,7 +385,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 476
+        x: 474.8636
         y: 215
         width: 160
         height: 30
