@@ -311,7 +311,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 474.86365
+        x: 473.86365
         y: 165
         width: 160
         height: 30
@@ -359,7 +359,15 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: DoSoundLeft(LOOOOOOOL);
+        value: 'DoSoundLeft(event:/Ambiances/Hopital,
+
+          0, 0.02, 1,
+
+          10,0,1,
+
+          -10,0,1,
+
+          5);'
         type: 0
         typeString: 
       conversationID: 1
@@ -385,7 +393,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 473.8636
+        x: 472.8636
         y: 215.86429
         width: 160
         height: 30
@@ -511,7 +519,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: 
+        value: StopSoundPlaying(event:/Ambiances/Hopital)
         type: 0
         typeString: CustomFieldType_Text
       conversationID: 1
