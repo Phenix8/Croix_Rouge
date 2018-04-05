@@ -14,6 +14,8 @@ public class MenusManager : MonoBehaviour
     CanvasGroup CG_Pause;
     CanvasGroup CG_Options;
 
+    CanvasGroup CG_SoundAnim;
+
     public List<CanvasGroup> L_CanvasGroups = new List<CanvasGroup>();
 
     enum E_Menu { MainMenu, InGame, Pause, Options}
@@ -31,6 +33,8 @@ public class MenusManager : MonoBehaviour
         CG_IG_Audio = GameObject.Find("Canvas/InGame/IG_AudioOnly").GetComponent<CanvasGroup>();
         CG_Pause = GameObject.Find("Canvas/Pause").GetComponent<CanvasGroup>();
         CG_Options = GameObject.Find("Canvas/Options").GetComponent<CanvasGroup>();
+
+        CG_SoundAnim = GameObject.Find("Canvas/MainMenu/SoundAnim").GetComponent<CanvasGroup>();
 
         L_CanvasGroups.Add(CG_MainMenu);//0
         L_CanvasGroups.Add(CG_InGame);//1
@@ -68,6 +72,7 @@ public class MenusManager : MonoBehaviour
         switch (choice)
         {
             case 0:
+                DOTween.To(() => CG_SoundAnim.alpha, x => CG_SoundAnim.alpha = x, 1f, 2.5f).SetEase(Ease.Linear);
                 DOTween.To(() => CG_MainMenu.alpha, x => CG_MainMenu.alpha = x, 1f, 1f).SetEase(Ease.InQuint);
                 CG_MainMenu.blocksRaycasts = true;
                 if (CG_InGame.alpha == 1)
@@ -174,6 +179,7 @@ public class MenusManager : MonoBehaviour
         ModifyAlphaMenuAnimated(1);
         AnimatedTransToAudio();
         StartCoroutine(StartDG());
+        DOTween.To(() => CG_SoundAnim.alpha, x => CG_SoundAnim.alpha = x, 0f, 0f).SetEase(Ease.Linear);
     }
 
     IEnumerator StartDG()

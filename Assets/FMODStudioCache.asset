@@ -13,7 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: 114483564388740024}
-  - {fileID: 114970106176299554}
+  - {fileID: 114791318531400086}
   EditorEvents:
   - {fileID: 114917158988351286}
   - {fileID: 114286903891505878}
@@ -34,9 +34,9 @@ MonoBehaviour:
   - {fileID: 114436134543337456}
   - {fileID: 114108641191692536}
   - {fileID: 114379533734816580}
-  MasterBankRef: {fileID: 114970106176299554}
+  MasterBankRef: {fileID: 114791318531400086}
   StringsBankRef: {fileID: 114483564388740024}
-  stringsBankWriteTime: 636568241760439304
+  stringsBankWriteTime: 636584869082166473
   cacheVersion: 2
 --- !u!114 &114101889740273428
 MonoBehaviour:
@@ -52,7 +52,7 @@ MonoBehaviour:
   Path: event:/sfx/gunreload/rifle
   guid: 48f38013c49a6e4daeabde6f9785b2f7
   Banks:
-  - {fileID: 114970106176299554}
+  - {fileID: 114791318531400086}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -74,7 +74,7 @@ MonoBehaviour:
   Path: event:/sfx/steps/solo/on_water
   guid: e1c54a4a355102409aee101c096254e8
   Banks:
-  - {fileID: 114970106176299554}
+  - {fileID: 114791318531400086}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -96,7 +96,7 @@ MonoBehaviour:
   Path: event:/Ambiances/Hopital
   guid: 4a5c49a6b98bd84da80139ecbc358576
   Banks:
-  - {fileID: 114970106176299554}
+  - {fileID: 114791318531400086}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -118,7 +118,7 @@ MonoBehaviour:
   Path: event:/sfx/steps/solo/on_wood
   guid: 80f25b11dd6fa143801d8ab650cf72a8
   Banks:
-  - {fileID: 114970106176299554}
+  - {fileID: 114791318531400086}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -140,7 +140,7 @@ MonoBehaviour:
   Path: event:/Ambiances/Market
   guid: 6ca479a27f76334d93fc557d3bdc3f84
   Banks:
-  - {fileID: 114970106176299554}
+  - {fileID: 114791318531400086}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -162,7 +162,7 @@ MonoBehaviour:
   Path: event:/sfx/screams/woman
   guid: 78b0abb3c8ab994098564223ebb0e69b
   Banks:
-  - {fileID: 114970106176299554}
+  - {fileID: 114791318531400086}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -184,7 +184,7 @@ MonoBehaviour:
   Path: event:/sfx/steps/multi/on_concrete
   guid: 2571fefceb0a23409d1cf3c1d3639dcf
   Banks:
-  - {fileID: 114970106176299554}
+  - {fileID: 114791318531400086}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -206,7 +206,7 @@ MonoBehaviour:
   Path: event:/sfx/screams/man
   guid: 84223475ec22074298bb18193ad00a97
   Banks:
-  - {fileID: 114970106176299554}
+  - {fileID: 114791318531400086}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -228,7 +228,7 @@ MonoBehaviour:
   Path: event:/sfx/steps/multi/on_earth
   guid: ff1cc3f3f6ebc6488d795522d619cfb4
   Banks:
-  - {fileID: 114970106176299554}
+  - {fileID: 114791318531400086}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -250,7 +250,7 @@ MonoBehaviour:
   Path: event:/sfx/gunshot/rifle
   guid: ca49d4721bedee43b60ee9547d59ebad
   Banks:
-  - {fileID: 114970106176299554}
+  - {fileID: 114791318531400086}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -270,7 +270,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Path: Assets\Sound\Mobile\Master Bank.strings.bank
-  lastModified: 636568241760439304
+  lastModified: 636584869082166473
   LoadResult: 0
   FileSizes:
   - Name: 
@@ -290,7 +290,7 @@ MonoBehaviour:
   Path: event:/sfx/steps/multi/on_water
   guid: 7003ec41464e2e4d976dfa6d12ac7dc2
   Banks:
-  - {fileID: 114970106176299554}
+  - {fileID: 114791318531400086}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -312,7 +312,7 @@ MonoBehaviour:
   Path: event:/sfx/screams/kids
   guid: b26d43c0147cd347805ed0d5349ba1fb
   Banks:
-  - {fileID: 114970106176299554}
+  - {fileID: 114791318531400086}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -334,7 +334,7 @@ MonoBehaviour:
   Path: event:/sfx/gunshot/handgun
   guid: 67ea95cace70b7448162e14b60f854cc
   Banks:
-  - {fileID: 114970106176299554}
+  - {fileID: 114791318531400086}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -356,7 +356,7 @@ MonoBehaviour:
   Path: event:/sfx/explosions/car
   guid: 939c5467d1d76d4b8423c23c28b7820b
   Banks:
-  - {fileID: 114970106176299554}
+  - {fileID: 114791318531400086}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -364,6 +364,24 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2500
+--- !u!114 &114791318531400086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: E:\Projets\Croix_Rouge\Assets\Sound\Mobile\Master Bank.bank
+  lastModified: 636584869082141554
+  LoadResult: 0
+  FileSizes:
+  - Name: 
+    Value: 25896864
+  Exists: 1
 --- !u!114 &114831375416445112
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -378,7 +396,7 @@ MonoBehaviour:
   Path: event:/sfx/steps/multi/on_wood
   guid: b93a141d634ff641a6be8a55c5ba754d
   Banks:
-  - {fileID: 114970106176299554}
+  - {fileID: 114791318531400086}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -400,7 +418,7 @@ MonoBehaviour:
   Path: event:/sfx/steps/solo/on_concrete
   guid: 8e0ce93228af1c4a95a371a5fdce85a9
   Banks:
-  - {fileID: 114970106176299554}
+  - {fileID: 114791318531400086}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -422,7 +440,7 @@ MonoBehaviour:
   Path: event:/sfx/explosions/grenade
   guid: bd23e6c70604524e97b596257447d7de
   Banks:
-  - {fileID: 114970106176299554}
+  - {fileID: 114791318531400086}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -444,7 +462,7 @@ MonoBehaviour:
   Path: event:/sfx/steps/solo/on_earth
   guid: 04540ead3b789f44af6e92cf0e46ba5d
   Banks:
-  - {fileID: 114970106176299554}
+  - {fileID: 114791318531400086}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -466,7 +484,7 @@ MonoBehaviour:
   Path: event:/sfx/gunreload/handgun
   guid: 65fda7007497cb4f9325517b25118f62
   Banks:
-  - {fileID: 114970106176299554}
+  - {fileID: 114791318531400086}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -491,4 +509,4 @@ MonoBehaviour:
   FileSizes:
   - Name: 
     Value: 25896864
-  Exists: 1
+  Exists: 0

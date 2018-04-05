@@ -377,7 +377,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Vladimir/Vladimir_NightTrip_01)
         type: 0
         typeString: 
       conversationID: 1
@@ -404,80 +404,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 33.843765
-        y: 73.32779
-        width: 160
-        height: 30
-    - id: 2
-      fields:
-      - title: Title
-        value: Continuer
-        type: 0
-        typeString: 
-      - title: Pictures
-        value: '[]'
-        type: 3
-        typeString: 
-      - title: Description
-        value: 
-        type: 0
-        typeString: 
-      - title: Actor
-        value: 1
-        type: 5
-        typeString: 
-      - title: Conversant
-        value: 2
-        type: 5
-        typeString: 
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Dialogue Text
-        value: Continuer
-        type: 0
-        typeString: 
-      - title: Parenthetical
-        value: 
-        type: 0
-        typeString: 
-      - title: Audio Files
-        value: '[]'
-        type: 3
-        typeString: 
-      - title: Video File
-        value: 
-        type: 0
-        typeString: 
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: 
-      conversationID: 1
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 1
-        originDialogueID: 2
-        destinationConversationID: 1
-        destinationDialogueID: 3
-        isConnector: 0
-        priority: 2
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-      canvasRect:
-        serializedVersion: 2
-        x: 26.095108
-        y: 462.89325
+        y: 75.9207
         width: 160
         height: 30
     - id: 3
@@ -507,7 +434,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Tu y vas en premi\xE8re Lize, puis Vladimir. Je ferme la marche (Dave)\r"
+        value: "- Tu y vas en premi\xE8re Lize, puis Vladimir. Je ferme la marche
+          (Dave)\r"
         type: 0
         typeString: 
       - title: Parenthetical
@@ -523,7 +451,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Dave/Dave_Jump_01)
         type: 0
         typeString: 
       conversationID: 1
@@ -549,82 +477,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 15.3554
-        y: 558.3621
-        width: 160
-        height: 30
-    - id: 5
-      fields:
-      - title: Title
-        value: La descente
-        type: 0
-        typeString: 
-      - title: Pictures
-        value: '[]'
-        type: 3
-        typeString: 
-      - title: Description
-        value: 
-        type: 0
-        typeString: 
-      - title: Actor
-        value: 2
-        type: 5
-        typeString: 
-      - title: Conversant
-        value: 1
-        type: 5
-        typeString: 
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Dialogue Text
-        value: "Lorsque je pose le pied \xE0 terre, Lize est d\xE9j\xE0 plong\xE9e
-          dans le drap\xE9 du parachute, cherchant \xE0 d\xE9gager Vladimir. (Dave)\r"
-        type: 0
-        typeString: 
-      - title: Parenthetical
-        value: 
-        type: 0
-        typeString: 
-      - title: Audio Files
-        value: '[]'
-        type: 3
-        typeString: 
-      - title: Video File
-        value: 
-        type: 0
-        typeString: 
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: 
-      conversationID: 1
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 1
-        originDialogueID: 5
-        destinationConversationID: 1
-        destinationDialogueID: 72
-        isConnector: 0
-        priority: 2
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-      canvasRect:
-        serializedVersion: 2
-        x: 202.41037
-        y: 789.4075
+        x: 30.126457
+        y: 555.4079
         width: 160
         height: 30
     - id: 6
@@ -844,79 +698,6 @@ MonoBehaviour:
         serializedVersion: 2
         x: 209.73853
         y: 479.06067
-        width: 160
-        height: 30
-    - id: 10
-      fields:
-      - title: Title
-        value: Continuer
-        type: 0
-        typeString: 
-      - title: Pictures
-        value: '[]'
-        type: 3
-        typeString: 
-      - title: Description
-        value: 
-        type: 0
-        typeString: 
-      - title: Actor
-        value: 1
-        type: 5
-        typeString: 
-      - title: Conversant
-        value: 2
-        type: 5
-        typeString: 
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Dialogue Text
-        value: Continuer
-        type: 0
-        typeString: 
-      - title: Parenthetical
-        value: 
-        type: 0
-        typeString: 
-      - title: Audio Files
-        value: '[]'
-        type: 3
-        typeString: 
-      - title: Video File
-        value: 
-        type: 0
-        typeString: 
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: 
-      conversationID: 1
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 1
-        originDialogueID: 10
-        destinationConversationID: 1
-        destinationDialogueID: 11
-        isConnector: 0
-        priority: 2
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-      canvasRect:
-        serializedVersion: 2
-        x: 615.85
-        y: 423.27277
         width: 160
         height: 30
     - id: 11
@@ -3067,7 +2848,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: "\u201CJe vous laisse vous reposer un peu.\" (Sam)\r"
+        value: "- Je vous laisse vous reposer un peu. (Sam)\r"
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -3674,7 +3455,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Dave/Dave_NightTrip_01)
         type: 0
         typeString: 
       conversationID: 1
@@ -3748,7 +3529,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Vladimir/Vladimir_NightTrip_02)
         type: 0
         typeString: 
       conversationID: 1
@@ -3824,7 +3605,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Dave/Dave_NightTrip_02)
         type: 0
         typeString: 
       conversationID: 1
@@ -3897,7 +3678,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Lize/Lize_NightTrip_01)
         type: 0
         typeString: 
       conversationID: 1
@@ -3923,7 +3704,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 30.268372
+        x: 28.91153
         y: 289.09827
         width: 160
         height: 30
@@ -3970,7 +3751,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Dave/Dave_NightTrip_03)
         type: 0
         typeString: 
       conversationID: 1
@@ -3984,7 +3765,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 58
         destinationConversationID: 1
-        destinationDialogueID: 2
+        destinationDialogueID: 3
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -4043,7 +3824,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Lize/Lize_NightTrip_02)
         type: 0
         typeString: 
       conversationID: 1
@@ -4069,8 +3850,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 12.916374
-        y: 608.3621
+        x: 27.687431
+        y: 605.4079
         width: 160
         height: 30
     - id: 60
@@ -4100,7 +3881,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "- Quand il faut y aller\u2026 On se retrouve en bas !\u201D (Vladimir)\r"
+        value: "- Quand il faut y aller\u2026 On se retrouve en bas ! (Vladimir)\r"
         type: 0
         typeString: 
       - title: Parenthetical
@@ -4116,7 +3897,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Vladimir/Vladimir_Jump_01)
         type: 0
         typeString: 
       conversationID: 1
@@ -4130,82 +3911,6 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 60
         destinationConversationID: 1
-        destinationDialogueID: 61
-        isConnector: 0
-        priority: 2
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-      canvasRect:
-        serializedVersion: 2
-        x: 12.916374
-        y: 658.3621
-        width: 160
-        height: 30
-    - id: 61
-      fields:
-      - title: Title
-        value: New Dialogue Entry
-        type: 0
-        typeString: 
-      - title: Pictures
-        value: '[]'
-        type: 3
-        typeString: 
-      - title: Description
-        value: 
-        type: 0
-        typeString: 
-      - title: Actor
-        value: 2
-        type: 5
-        typeString: 
-      - title: Conversant
-        value: 1
-        type: 5
-        typeString: 
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Dialogue Text
-        value: "Je me penche \xE0 mon tour, observant les deux silhouettes de mes
-          camarades s\u2019\xE9loigner rapidement. Les mains cramponn\xE9es \xE0 mes
-          lani\xE8res de parachute, je saute \xE0 mon tour, ballott\xE9 par les vents.
-          C\u2019est ici que la mission commence r\xE9ellement.\r\r"
-        type: 0
-        typeString: 
-      - title: Parenthetical
-        value: 
-        type: 0
-        typeString: 
-      - title: Audio Files
-        value: '[]'
-        type: 3
-        typeString: 
-      - title: Video File
-        value: 
-        type: 0
-        typeString: 
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: 
-      conversationID: 1
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 1
-        originDialogueID: 61
-        destinationConversationID: 1
         destinationDialogueID: 62
         isConnector: 0
         priority: 2
@@ -4218,8 +3923,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 15.619087
-        y: 708.3622
+        x: 27.687431
+        y: 655.4079
         width: 160
         height: 30
     - id: 62
@@ -4249,7 +3954,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "\u201COuverture du parachute (Lize)\r"
+        value: "- Ouverture du parachute (Lize)\r"
         type: 0
         typeString: 
       - title: Parenthetical
@@ -4265,7 +3970,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Lize/Lize_NightTrip_03)
         type: 0
         typeString: 
       conversationID: 1
@@ -4291,8 +3996,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 15.619087
-        y: 758.3622
+        x: 30.390144
+        y: 755.40796
         width: 160
         height: 30
     - id: 63
@@ -4338,7 +4043,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Vladimir/Vladimir_Jump_02)
         type: 0
         typeString: 
       conversationID: 1
@@ -4364,8 +4069,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 15.619087
-        y: 808.3622
+        x: 30.390144
+        y: 805.40796
         width: 160
         height: 30
     - id: 64
@@ -4395,7 +4100,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: '"J''ouvre aussi" (Dave)'
+        value: '- J''ouvre aussi (Dave)'
         type: 0
         typeString: 
       - title: Parenthetical
@@ -4411,7 +4116,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Dave/Dave_Jump_02)
         type: 0
         typeString: 
       conversationID: 1
@@ -4437,8 +4142,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 15.619087
-        y: 856.7997
+        x: 30.390144
+        y: 853.0804
         width: 160
         height: 30
     - id: 65
@@ -4468,8 +4173,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "\u201CVlad\u2019 ! Tu t\u2019approches trop du flanc de la montagne
-          ! (Dave)\r"
+        value: "- Vlad\u2019 ! Tu t\u2019approches trop du flanc de la montagne !
+          (Dave)\r"
         type: 0
         typeString: 
       - title: Parenthetical
@@ -4485,7 +4190,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Dave/Dave_Jump_03)
         type: 0
         typeString: 
       conversationID: 1
@@ -4511,8 +4216,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 15.619087
-        y: 908.3622
+        x: 30.390144
+        y: 905.40796
         width: 160
         height: 30
     - id: 66
@@ -4542,7 +4247,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "- Je \u2026.Trop de vent \u2026 Argh !\u201D (Vladimir)\r"
+        value: "- Je \u2026.Trop de vent \u2026 Argh ! (Vladimir)\r"
         type: 0
         typeString: 
       - title: Parenthetical
@@ -4558,7 +4263,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Vladimir/Vladimir_Jump_03)
         type: 0
         typeString: 
       conversationID: 1
@@ -4584,8 +4289,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 15.619087
-        y: 958.3622
+        x: 30.390144
+        y: 955.40796
         width: 160
         height: 30
     - id: 67
@@ -4615,7 +4320,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "\u201CVladimir ! Qu\u2019est-ce qui se passe ? (Lize)\r"
+        value: "- Vladimir ! Qu\u2019est-ce qui se passe ? (Lize)\r"
         type: 0
         typeString: 
       - title: Parenthetical
@@ -4631,7 +4336,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Lize/Lize_NightTrip_04)
         type: 0
         typeString: 
       conversationID: 1
@@ -4657,8 +4362,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 15.619087
-        y: 1008.3622
+        x: 29.033302
+        y: 1005.40796
         width: 160
         height: 30
     - id: 68
@@ -4705,7 +4410,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Vladimir/Vladimir_Jump_05)
         type: 0
         typeString: 
       conversationID: 1
@@ -4731,8 +4436,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 199.23105
-        y: 1008.36206
+        x: 234.5539
+        y: 1007.65
         width: 160
         height: 30
     - id: 69
@@ -4762,7 +4467,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "- Merde. Attention \xE0 l'atterrissage du coup\u201D (Lize)\r"
+        value: "- Merde. Attention \xE0 l'atterrissage du coup (Lize)\r"
         type: 0
         typeString: 
       - title: Parenthetical
@@ -4778,7 +4483,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Lize/Lize_NightTrip_05)
         type: 0
         typeString: 
       conversationID: 1
@@ -4804,8 +4509,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 196.90549
-        y: 953.7109
+        x: 232.22833
+        y: 952.99884
         width: 160
         height: 30
     - id: 70
@@ -4835,8 +4540,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "\u201CLize ! On dirait que Vladimir s\u2019est mal r\xE9ceptionn\xE9.
-          Il s\u2019est enroul\xE9 dans son parachute. Je vous rejoins !\u201D (Dave).\r"
+        value: "- Lize ! On dirait que Vladimir s\u2019est mal r\xE9ceptionn\xE9.
+          Il s\u2019est enroul\xE9 dans son parachute. Je vous rejoins ! (Dave).\r"
         type: 0
         typeString: 
       - title: Parenthetical
@@ -4852,7 +4557,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Dave/Dave_Jump_04)
         type: 0
         typeString: 
       conversationID: 1
@@ -4866,7 +4571,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 70
         destinationConversationID: 1
-        destinationDialogueID: 71
+        destinationDialogueID: 72
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -4878,81 +4583,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 199.23108
-        y: 903.7109
-        width: 160
-        height: 30
-    - id: 71
-      fields:
-      - title: Title
-        value: Continuer
-        type: 0
-        typeString: 
-      - title: Pictures
-        value: '[]'
-        type: 3
-        typeString: 
-      - title: Description
-        value: 
-        type: 0
-        typeString: 
-      - title: Actor
-        value: 1
-        type: 5
-        typeString: 
-      - title: Conversant
-        value: 2
-        type: 5
-        typeString: 
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Dialogue Text
-        value: Continuer
-        type: 0
-        typeString: 
-      - title: Parenthetical
-        value: 
-        type: 0
-        typeString: 
-      - title: Audio Files
-        value: '[]'
-        type: 3
-        typeString: 
-      - title: Video File
-        value: 
-        type: 0
-        typeString: 
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: 
-      conversationID: 1
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 1
-        originDialogueID: 71
-        destinationConversationID: 1
-        destinationDialogueID: 5
-        isConnector: 0
-        priority: 2
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-      canvasRect:
-        serializedVersion: 2
-        x: 199.23108
-        y: 842.08295
+        x: 232.25858
+        y: 901.4686
         width: 160
         height: 30
     - id: 72
@@ -4982,8 +4614,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "\u201CDave ! Il s\u2019est bless\xE9, viens !\r\nIl commence \xE0
-          saigner.\u201D (Lize)\r"
+        value: "- Dave ! Il s\u2019est bless\xE9, viens !\r (Lize)\r"
         type: 0
         typeString: 
       - title: Parenthetical
@@ -4999,7 +4630,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Lize/Lize_Descent_01)
         type: 0
         typeString: 
       conversationID: 1
@@ -5013,7 +4644,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 72
         destinationConversationID: 1
-        destinationDialogueID: 73
+        destinationDialogueID: 232
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -5056,7 +4687,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "\u201C\xC7a va, \xE7a va, c\u2019est juste ma r\xE9ception que j\u2019ai
+        value: "- \xC7a va, \xE7a va, c\u2019est juste ma r\xE9ception que j\u2019ai
           mal g\xE9r\xE9e. (Vladimir)\r"
         type: 0
         typeString: 
@@ -5073,7 +4704,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Vladimir/Vladimir_Descent_02)
         type: 0
         typeString: 
       conversationID: 1
@@ -5099,8 +4730,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 450.1318
-        y: 758.2651
+        x: 450.9742
+        y: 843.3536
         width: 160
         height: 30
     - id: 74
@@ -5147,7 +4778,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Dave/Dave_Descent_01)
         type: 0
         typeString: 
       conversationID: 1
@@ -5173,8 +4804,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 451.7711
-        y: 818.1011
+        x: 452.6135
+        y: 903.1896
         width: 160
         height: 30
     - id: 75
@@ -5204,7 +4835,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "\u201CTu penses pouvoir marcher ? (Lize)\r"
+        value: "- Tu penses pouvoir marcher ? (Lize)\r"
         type: 0
         typeString: 
       - title: Parenthetical
@@ -5220,7 +4851,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Lize/Lize_Descent_03)
         type: 0
         typeString: 
       conversationID: 1
@@ -5246,75 +4877,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 446.85303
-        y: 869.74054
-        width: 160
-        height: 30
-    - id: 76
-      fields:
-      - title: Title
-        value: New Dialogue Entry
-        type: 0
-        typeString: 
-      - title: Pictures
-        value: '[]'
-        type: 3
-        typeString: 
-      - title: Description
-        value: 
-        type: 0
-        typeString: 
-      - title: Actor
-        value: 1
-        type: 5
-        typeString: 
-      - title: Conversant
-        value: 1
-        type: 5
-        typeString: 
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Dialogue Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Parenthetical
-        value: 
-        type: 0
-        typeString: 
-      - title: Audio Files
-        value: '[]'
-        type: 3
-        typeString: 
-      - title: Video File
-        value: 
-        type: 0
-        typeString: 
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: 
-      conversationID: 1
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks: []
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-      canvasRect:
-        serializedVersion: 2
-        x: 31.054474
-        y: 74.557335
+        x: 447.69543
+        y: 954.82904
         width: 160
         height: 30
     - id: 77
@@ -5360,7 +4924,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Vladimir/Vladimir_Descent_03)
         type: 0
         typeString: 
       conversationID: 1
@@ -5386,8 +4950,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 450.8769
-        y: 926.2979
+        x: 451.7193
+        y: 1011.3864
         width: 160
         height: 30
     - id: 78
@@ -5417,7 +4981,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "- Ok, descendons la montagne pour commencer.\u201D (Dave)\r"
+        value: "- Ok, descendons la montagne pour commencer. (Dave)\r"
         type: 0
         typeString: 
       - title: Parenthetical
@@ -5433,7 +4997,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Dave/Dave_Descent_02)
         type: 0
         typeString: 
       conversationID: 1
@@ -5459,8 +5023,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 450.51917
-        y: 978.47375
+        x: 451.36157
+        y: 1063.5625
         width: 160
         height: 30
     - id: 79
@@ -5490,7 +5054,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "\u201CLaisse-moi t\u2019aider l\xE0, c\u2019est raide (Dave)\r"
+        value: "- Laisse-moi t\u2019aider l\xE0, c\u2019est raide (Dave)\r"
         type: 0
         typeString: 
       - title: Parenthetical
@@ -5506,7 +5070,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Dave/Dave_Descent_03)
         type: 0
         typeString: 
       conversationID: 1
@@ -5532,8 +5096,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 451.77106
-        y: 1031.2158
+        x: 450.26355
+        y: 1136.6575
         width: 160
         height: 30
     - id: 80
@@ -5563,7 +5127,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "- Non, \xE7a ira\u201D (Vladimir)\r"
+        value: "- Non, \xE7a ira (Vladimir)\r"
         type: 0
         typeString: 
       - title: Parenthetical
@@ -5579,7 +5143,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Vladimir/Vladimir_Descent_04)
         type: 0
         typeString: 
       conversationID: 1
@@ -5605,8 +5169,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 630.5483
-        y: 1000.6664
+        x: 663.7323
+        y: 1137.3234
         width: 160
         height: 30
     - id: 81
@@ -5636,8 +5200,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "\u201C\xC7a va, je peux le faire, ne vous occupez pas de moi. Je me
-          suis quand m\xEAme bien rat\xE9 sur ce coup-l\xE0. \u2019Tain !!! (Vladimir)\r"
+        value: "- \xC7a va, je peux le faire, ne vous occupez pas de moi. Je me suis
+          quand m\xEAme bien rat\xE9 sur ce coup-l\xE0. \u2019Tain !!! (Vladimir)\r"
         type: 0
         typeString: 
       - title: Parenthetical
@@ -5653,7 +5217,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Vladimir/Vladimir_Descent_05)
         type: 0
         typeString: 
       conversationID: 1
@@ -5679,8 +5243,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 631.40894
-        y: 947.38776
+        x: 665.9498
+        y: 1021.6297
         width: 160
         height: 30
     - id: 82
@@ -5726,7 +5290,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Lize/Lize_Descent_04)
         type: 0
         typeString: 
       conversationID: 1
@@ -5752,8 +5316,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 629.7696
-        y: 903.94525
+        x: 669.7379
+        y: 949.693
         width: 160
         height: 30
     - id: 83
@@ -5801,7 +5365,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Vladimir/Vladimir_Descent_06)
         type: 0
         typeString: 
       conversationID: 1
@@ -5815,81 +5379,6 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 83
         destinationConversationID: 1
-        destinationDialogueID: 84
-        isConnector: 0
-        priority: 2
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-      canvasRect:
-        serializedVersion: 2
-        x: 627.20624
-        y: 853.7663
-        width: 160
-        height: 30
-    - id: 84
-      fields:
-      - title: Title
-        value: New Dialogue Entry
-        type: 0
-        typeString: 
-      - title: Pictures
-        value: '[]'
-        type: 3
-        typeString: 
-      - title: Description
-        value: 
-        type: 0
-        typeString: 
-      - title: Actor
-        value: 2
-        type: 5
-        typeString: 
-      - title: Conversant
-        value: 1
-        type: 5
-        typeString: 
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Dialogue Text
-        value: "Nous continuons jusqu\u2019\xE0 atteindre le pied de la montagne.
-          Le sol plat devrait moins faire souffrir Vladimir, qui semble essayer de
-          cacher sa douleur. (Dave)\r"
-        type: 0
-        typeString: 
-      - title: Parenthetical
-        value: 
-        type: 0
-        typeString: 
-      - title: Audio Files
-        value: '[]'
-        type: 3
-        typeString: 
-      - title: Video File
-        value: 
-        type: 0
-        typeString: 
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: 
-      conversationID: 1
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 1
-        originDialogueID: 84
-        destinationConversationID: 1
         destinationDialogueID: 85
         isConnector: 0
         priority: 2
@@ -5902,8 +5391,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 624.1064
-        y: 800.3088
+        x: 665.8177
+        y: 868.30646
         width: 160
         height: 30
     - id: 85
@@ -5933,9 +5422,9 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "\u201CNotre premier objectif est de rejoindre une base des forces
-          alli\xE9es \xE9tablie \xE0 2 km au Sud environ. Ceux-ci devrait pouvoir
-          nous octroyer un v\xE9hicule afin de rejoindre notre contact.\u201D (Dave)"
+        value: "- Notre premier objectif est de rejoindre une base des forces alli\xE9es
+          \xE9tablie \xE0 2 km au Sud environ. Ceux-ci devrait pouvoir nous octroyer
+          un v\xE9hicule afin de rejoindre notre contact. (Dave)"
         type: 0
         typeString: 
       - title: Parenthetical
@@ -5951,7 +5440,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Dave/Dave_Descent_04)
         type: 0
         typeString: 
       conversationID: 1
@@ -5977,8 +5466,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 623.5699
-        y: 741.3966
+        x: 665.16046
+        y: 776.8299
         width: 160
         height: 30
     - id: 86
@@ -6008,8 +5497,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "\u201C Tu fais quoi ? T\u2019as besoin qu\u2019on fasse une pause
-          ? (Lize)\r"
+        value: "- Tu fais quoi ? T\u2019as besoin qu\u2019on fasse une pause ? (Lize)\r"
         type: 0
         typeString: 
       - title: Parenthetical
@@ -6025,7 +5513,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Lize/Lize_Descent_05)
         type: 0
         typeString: 
       conversationID: 1
@@ -6051,8 +5539,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 627.97156
-        y: 672.55743
+        x: 663.91394
+        y: 670.5444
         width: 160
         height: 30
     - id: 87
@@ -6086,7 +5574,7 @@ MonoBehaviour:
           pas pouvoir courir. Mais il faut absolument que la mission r\xE9ussisse,
           on a la vie d\u2019un otage sur les \xE9paules. Il faut que vous me laissiez
           pour aller plus vite. Je vais me d\xE9brouiller, si vous me passez une des
-          2 radios.\u201D (Vladimir)\r"
+          2 radios. (Vladimir)\r"
         type: 0
         typeString: 
       - title: Parenthetical
@@ -6102,7 +5590,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Vladimir/Vladimir_Descent_07)
         type: 0
         typeString: 
       conversationID: 1
@@ -6165,8 +5653,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "- Mais \u2026 Bon, vous avez raison, la mission avant tout.\u201D
-          (Lize)\r"
+        value: "- Mais \u2026 Bon, vous avez raison, la mission avant tout. (Lize)\r"
         type: 0
         typeString: 
       - title: Parenthetical
@@ -6182,7 +5669,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Lize/Lize_Descent_06)
         type: 0
         typeString: 
       conversationID: 1
@@ -6313,7 +5800,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "- Bon courage\u201D (Lize)\r"
+        value: "- Bon courage (Lize)\r"
         type: 0
         typeString: 
       - title: Parenthetical
@@ -6329,7 +5816,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Lize/Lize_Descent_07)
         type: 0
         typeString: 
       conversationID: 1
@@ -6551,7 +6038,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Lize/Lize_Descent_08)
         type: 0
         typeString: 
       conversationID: 1
@@ -6771,7 +6258,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Lize/Lize_Descent_09)
         type: 0
         typeString: 
       conversationID: 1
@@ -7067,7 +6554,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Lize/Lize_Descent_11)
         type: 0
         typeString: 
       conversationID: 1
@@ -7641,7 +7128,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "\u201CLes gars, venez, on doit partir ! (soldat)\r"
+        value: "Les gars, venez, on doit partir ! (soldat)\r"
         type: 0
         typeString: 
       - title: Parenthetical
@@ -7683,8 +7170,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 580.64777
-        y: 529.0604
+        x: 616.80225
+        y: 527.4171
         width: 160
         height: 30
     - id: 109
@@ -7714,7 +7201,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "- On arrive !\u201D (Dave)\r"
+        value: "- On arrive ! (Dave)\r"
         type: 0
         typeString: 
       - title: Parenthetical
@@ -7744,7 +7231,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 109
         destinationConversationID: 1
-        destinationDialogueID: 10
+        destinationDialogueID: 11
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -7756,8 +7243,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 582.466
-        y: 479.06036
+        x: 618.6205
+        y: 477.41705
         width: 160
         height: 30
     - id: 110
@@ -7959,7 +7446,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Lize/Lize_Descent_12)
         type: 0
         typeString: 
       conversationID: 1
@@ -8115,7 +7602,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Lize/Lize_Descent_13)
         type: 0
         typeString: 
       conversationID: 1
@@ -8246,7 +7733,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "- Mmm \u2026\u201D (Dave)\r"
+        value: "- Mmm \u2026 (Dave)\r"
         type: 0
         typeString: 
       - title: Parenthetical
@@ -8466,8 +7953,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "\u201CIci le g\xE9n\xE9ral Allan, vous pouvez d\xE9poser le commando
-          Azure ici, c\u2019est le plus proche de leur objectif. Rejoignez-nous ensuite,
+        value: "- Ici le g\xE9n\xE9ral Allan, vous pouvez d\xE9poser le commando Azure
+          ici, c\u2019est le plus proche de leur objectif. Rejoignez-nous ensuite,
           on continue d\u2019avancer. (G\xE9n\xE9ral)\r"
         type: 0
         typeString: 
@@ -8688,7 +8175,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "- Au revoir\u201D (Lize)\r"
+        value: "- Au revoir (Lize)\r"
         type: 0
         typeString: 
       - title: Parenthetical
@@ -8704,7 +8191,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Lize/Lize_Descent_14)
         type: 0
         typeString: 
       conversationID: 1
@@ -13987,73 +13474,6 @@ MonoBehaviour:
         y: 658.7196
         width: 160
         height: 30
-    - id: 194
-      fields:
-      - title: Title
-        value: New Dialogue Entry
-        type: 0
-        typeString: 
-      - title: Pictures
-        value: '[]'
-        type: 3
-        typeString: 
-      - title: Description
-        value: 
-        type: 0
-        typeString: 
-      - title: Actor
-        value: 1
-        type: 5
-        typeString: 
-      - title: Conversant
-        value: 1
-        type: 5
-        typeString: 
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Dialogue Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Parenthetical
-        value: 
-        type: 0
-        typeString: 
-      - title: Audio Files
-        value: '[]'
-        type: 3
-        typeString: 
-      - title: Video File
-        value: 
-        type: 0
-        typeString: 
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: 
-      conversationID: 1
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks: []
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-      canvasRect:
-        serializedVersion: 2
-        x: 31.054474
-        y: 74.557335
-        width: 160
-        height: 30
     - id: 195
       fields:
       - title: Title
@@ -15240,73 +14660,6 @@ MonoBehaviour:
         serializedVersion: 2
         x: 1881.2883
         y: 147.15262
-        width: 160
-        height: 30
-    - id: 211
-      fields:
-      - title: Title
-        value: New Dialogue Entry
-        type: 0
-        typeString: 
-      - title: Pictures
-        value: '[]'
-        type: 3
-        typeString: 
-      - title: Description
-        value: 
-        type: 0
-        typeString: 
-      - title: Actor
-        value: 1
-        type: 5
-        typeString: 
-      - title: Conversant
-        value: 1
-        type: 5
-        typeString: 
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Dialogue Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Parenthetical
-        value: 
-        type: 0
-        typeString: 
-      - title: Audio Files
-        value: '[]'
-        type: 3
-        typeString: 
-      - title: Video File
-        value: 
-        type: 0
-        typeString: 
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: 
-      conversationID: 1
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks: []
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-      canvasRect:
-        serializedVersion: 2
-        x: 31.054474
-        y: 74.557335
         width: 160
         height: 30
     - id: 212
@@ -16788,6 +16141,152 @@ MonoBehaviour:
         serializedVersion: 2
         x: 3291.102
         y: 1034.6101
+        width: 160
+        height: 30
+    - id: 232
+      fields:
+      - title: Title
+        value: New Dialogue Entry
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 3
+        type: 5
+        typeString: 
+      - title: Conversant
+        value: 4
+        type: 5
+        typeString: 
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: '*Cri de douleur de Vladimir*'
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: 
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: AudioWait(Vladimir/Vladimir_Descent_01)
+        type: 0
+        typeString: 
+      conversationID: 1
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 232
+        destinationConversationID: 1
+        destinationDialogueID: 233
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 450.36792
+        y: 753.1951
+        width: 160
+        height: 30
+    - id: 233
+      fields:
+      - title: Title
+        value: New Dialogue Entry
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 4
+        type: 5
+        typeString: 
+      - title: Conversant
+        value: 3
+        type: 5
+        typeString: 
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: "- Il commence \xE0 saigner. (Lize)"
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: 
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: AudioWait(Lize/Lize_Descent_02)
+        type: 0
+        typeString: 
+      conversationID: 1
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 233
+        destinationConversationID: 1
+        destinationDialogueID: 73
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 452.8545
+        y: 798.12286
         width: 160
         height: 30
   syncInfo:
