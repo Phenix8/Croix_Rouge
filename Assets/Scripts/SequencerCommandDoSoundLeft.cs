@@ -68,6 +68,11 @@ namespace PixelCrushers.DialogueSystem.SequencerCommands
             StudioEventEmitter newEmitter = newGO.AddComponent<StudioEventEmitter>() as StudioEventEmitter;
             newEmitter.Event = eventName;
             newEmitter.SetParameter("Volume", volume);
+            if (intBoolLoop == 0)
+            {
+                
+            }
+
             if (endPos != Vector3.zero)
             {
                 

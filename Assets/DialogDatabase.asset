@@ -3394,6 +3394,16 @@ MonoBehaviour:
 
           0, 0.02, 1,
 
+          0,0,0,
+
+          0,0,0,
+
+          5);
+
+          PlayNormalSound(SFX\Porte avion,
+
+          0, 0.5, 1,
+
           1,0,0,
 
           0,0,0,
@@ -3404,7 +3414,7 @@ MonoBehaviour:
 
           0, 0.1, 0,
 
-          1,0,0,
+          50,0,0,
 
           0,0,0,
 
@@ -3651,7 +3661,17 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: AudioWait(Lize/Lize_NightTrip_03)
+        value: 'PlayNormalSound(SFX\ParachuteOpeing,
+
+          0, 0.5, 1,
+
+          0,0,0,
+
+          0,0,0,
+
+          5);
+
+          AudioWait(Lize/Lize_NightTrip_03)'
         type: 0
         typeString: 
       conversationID: 1
@@ -3724,7 +3744,17 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: AudioWait(Vladimir/Vladimir_Jump_02)
+        value: 'PlayNormalSound(SFX\ParachuteOpeing,
+
+          0, 0.5, 1,
+
+          0,0,0,
+
+          0,0,0,
+
+          5);
+
+          AudioWait(Vladimir/Vladimir_Jump_02)'
         type: 0
         typeString: 
       conversationID: 1
@@ -3797,7 +3827,21 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: AudioWait(Dave/Dave_Jump_02)
+        value: 'PlayNormalSound(SFX\ParachuteOpeing,
+
+          0, 0.5, 1,
+
+          0,0,0,
+
+          0,0,0,
+
+          5);
+
+          AudioWait(Dave/Dave_Jump_02)'
+        type: 0
+        typeString: 
+      - title: Response Menu Sequence
+        value: 
         type: 0
         typeString: 
       conversationID: 1
@@ -3897,7 +3941,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 30.390144
+        x: 31.243385
         y: 905.40796
         width: 160
         height: 30
@@ -4311,9 +4355,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 'AudioWait(Lize/Lize_Descent_01);
-
-          StopNormalSoundPlaying(SFX\AmbienceJump);'
+        value: AudioWait(Lize/Lize_Descent_01);
         type: 0
         typeString: 
       conversationID: 1
@@ -4461,7 +4503,9 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: AudioWait(Dave/Dave_Descent_01)
+        value: 'AudioWait(Dave/Dave_Descent_01);
+
+          StopNormalSoundPlaying(SFX\course2_sable);'
         type: 0
         typeString: 
       conversationID: 1
@@ -4607,7 +4651,17 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: AudioWait(Vladimir/Vladimir_Descent_03)
+        value: 'AudioWait(Vladimir/Vladimir_Descent_03);
+
+          DoSoundLeft(event:/sfx/steps/multi/on_earth,
+
+          0, 0.05, 1,
+
+          0,0,0,
+
+          0,0,0,
+
+          5);'
         type: 0
         typeString: 
       conversationID: 1
@@ -5196,7 +5250,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: AudioWait(Lize/Lize_Descent_05)
+        value: 'AudioWait(Lize/Lize_Descent_05);
+
+          StopSoundPlaying(event:/sfx/steps/multi/on_earth);
+
+'
         type: 0
         typeString: 
       conversationID: 1
@@ -15497,7 +15555,29 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: AudioWait(Vladimir/Vladimir_Descent_01)
+        value: 'AudioWait(Vladimir/Vladimir_Descent_01);
+
+          StopNormalSoundPlaying(SFX\AmbienceJump);
+
+          PlayNormalSound(SFX\AmbienceJump,
+
+          0, 0.05, 1,
+
+          0,0,0,
+
+          600,0,0,
+
+          5);
+
+          PlayNormalSound(SFX\course2_sable,
+
+          0, 0.05, 1,
+
+          300,0,0,
+
+          0,0,0,
+
+          15);'
         type: 0
         typeString: 
       conversationID: 1
