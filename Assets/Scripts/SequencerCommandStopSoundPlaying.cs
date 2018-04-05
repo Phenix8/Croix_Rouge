@@ -38,7 +38,7 @@ namespace PixelCrushers.DialogueSystem.SequencerCommands
 
             UnityEngine.Debug.Log("TEEEEEST  " + soundName);
 
-            //Stop();
+            this.Stop();
         }
 
         public void Update()
