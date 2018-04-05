@@ -15722,7 +15722,7 @@ MonoBehaviour:
 
           PlayNormalSound(SFX\HeliInside,
 
-          0, 0.02, 1,
+          0, 0.015, 1,
 
           1,0,0,
 

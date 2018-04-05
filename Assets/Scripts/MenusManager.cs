@@ -184,7 +184,7 @@ public class MenusManager : MonoBehaviour
 
     IEnumerator StartDG()
     {
-        yield return new WaitForSeconds(2.5f);
+        yield return new WaitForSeconds(0.75f);
         G_Dialogue.SetActive(true);
     }
 
